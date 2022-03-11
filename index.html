@@ -4,12 +4,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Lucas Lee's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#work-experience">Work Experience</a>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+            </ul>
         </nav>
         <header>
             <h1>Hello, I'm Lucas, a software developer.</h1>
@@ -33,24 +36,27 @@
                         <p>September, 2016 - June, 2020</p>
                     </div>
                 </article>
-                <article id="interests">
+                <article>
                     <h3>Interests</h3>
-                    <div>
-                        <h4>Cycling</h4>
-                        <p>When it gets warmer, I love to cycle around the region discovering new places and being out in the open.</p>
+                    <div id="interests">
+                        <div>
+                            <h4>Cycling</h4>
+                            <p>When it gets warmer, I love to cycle around the region discovering new places and being out in the open.</p>
+                        </div>
+                        <div>
+                            <h4>Gardening</h4>
+                            <p>Although I don't have a lot of time to commit to this, I do like growing fruits and vegetables.</p>
+                        </div>
+                        <div>
+                            <h4>GIS</h4>
+                            <p>I enjoy looking at a well-made map and learning how to build my own.</p>
+                        </div>
+                        <div>
+                            <h4>Video Games</h4>
+                            <p>Strategy games, especially grand-strategy games like HOI4, the Civilization series, and Stellaris. Definitely not a competitive gamer.</p>
+                        </div>    
                     </div>
-                    <div>
-                        <h4>Gardening</h4>
-                        <p>Although I don't have a lot of time to commit to this, I do like growing fruits and vegetables.</p>
-                    </div>
-                    <div>
-                        <h4>GIS</h4>
-                        <p>I enjoy looking at a well-made map and learning how to build my own.</p>
-                    </div>
-                    <div>
-                        <h4>Video Games</h4>
-                        <p>Strategy games, especially grand-strategy games like HOI4, the Civilization series, and Stellaris. Definitely not a competitive gamer.</p>
-                    </div>
+                    
                 </article>
             </section>
             <section id="projects">
@@ -61,7 +67,7 @@
                         <h3>Kaisel Bot</h3>
                         <h4>Project Manager/Developer</h4>
                         <p>During my time at Langara College, my team and I built a website that retrieves gaming statistics for the games League of Legends, Valorant, and Teamfight Tactics.</p>
-                        <a href="https://github.com/cedafiso0403/frontend-kaisel-bot"><img src="images/company-icons/github.png" alt="kaisel bot repository" height="50" width="50"></a>
+                        <a href="https://github.com/cedafiso0403/frontend-kaisel-bot" target="_blank"><img src="images/company-icons/github.png" alt="kaisel bot repository" height="50" width="50"></a>
                     </div>
                 </article>
                 <article>
@@ -70,7 +76,7 @@
                         <h3>eReceipt</h3>
                         <h4>Project Manager/Developer</h4>
                         <p>When I was in high school, I entered a program known as <a href="https://gameofapps.org/">Game of Apps</a> which teaches youth a simplified overview of programming, teamwork, Git, and other skills used in the industry. In the program, my team built a receipt tracker for individuals which they then would use to keep track of their budget.</p>
-                        <a href="https://github.com/Justindkw/e-receipt"><img src="images/company-icons/github.png" alt="eReceipt repository" height="50" width="50"></a>
+                        <a href="https://github.com/Justindkw/e-receipt" target="_blank"><img src="images/company-icons/github.png" alt="eReceipt repository" height="50" width="50"></a>
                     </div>
                 </article>
             </section>
@@ -90,6 +96,11 @@
                 </article>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <ul>
+                <li><a href=""><img src="images/company-icons/github.png" alt="github account" height="50" width="50"></a></li>
+                <li><a href=""><img src="images/company-icons/linkedin.png" alt="linkedin account" height="50" width="50"></a></li>
+            </ul>
+        </footer>
     </body>
 </html>

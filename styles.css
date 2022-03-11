@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+html {
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em 0;
+    margin: 0;
+}
+
+footer {
+    background-color: gray;
+    padding: 0.15em;
+}
+
+footer>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 1em;
+    list-style-type: none;
+}
+
+header {
+    background-color: gray;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px black;
+    padding: 1em;
+    text-align: center;
+}
+
+header, main {
+    margin: auto;
+    max-width: 80%;
+}
+
+main a {
+    color: black;
+}
+
+main>section #interests {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    margin: auto;
+    width: 80%;
+}
+
+main>section {
+    padding: 3em 0;
+}
+
+main>section article {
+    background-color: gray;
+    box-shadow: 0 5px 5px black;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+main>section article>img {
+    
+}
+
+main p {
+    margin: 0;
+}
+
+nav {
+    background-color: gray;
+    padding: 1em;
+}
+
+nav a {
+    color: aliceblue;
+}
+
+nav a:link {
+    color: aliceblue;
+}
+
+nav a:visited {
+    color: aliceblue;
+}
+
+nav a:hover {
+    background: linear-gradient(0, aliceblue, grey 25%);
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    max-width: 80%;
+}
+
+nav>ul li {
+    padding: 0 1.5em 0 0;
+}
