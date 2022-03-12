@@ -30,37 +30,44 @@ footer>ul {
 }
 
 header {
-    background-color: gray;
+    /* background-color: gray; */
     border-radius: 15px;
-    box-shadow: 0 5px 5px black;
+    /* box-shadow: 0 5px 5px black; */
     padding: 1em;
     text-align: center;
 }
 
 header, main {
     margin: auto;
-    max-width: 80%;
+    max-width: 60%;
 }
 
-main a {
+main a,
+main a:link,
+main a:visited {
     color: black;
+}
+
+main a:hover {
+    background: linear-gradient(0, aliceblue, grey 25%);
+    font-weight: 700;
 }
 
 main>section #interests {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1em;
-    margin: auto;
+    gap: 1em 5em;
+    /* margin: auto; */
     width: 80%;
 }
 
 main>section {
-    padding: 3em 0;
+    padding: 0 0 3em 0;
 }
 
 main>section article {
     background-color: gray;
-    box-shadow: 0 5px 5px black;
+    box-shadow: 0 3px 5px black;
     border-radius: 15px;
     padding: 1em;
     margin: 1em 0;
@@ -79,14 +86,8 @@ nav {
     padding: 1em;
 }
 
-nav a {
-    color: aliceblue;
-}
-
-nav a:link {
-    color: aliceblue;
-}
-
+nav a,
+nav a:link,
 nav a:visited {
     color: aliceblue;
 }
@@ -102,7 +103,7 @@ nav>ul {
     list-style-type: none;
     padding: 0;
     margin: auto;
-    max-width: 80%;
+    max-width: 60%;
 }
 
 nav>ul li {
