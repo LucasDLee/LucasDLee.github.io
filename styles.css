@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 html {
     font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -7,6 +7,16 @@ html {
 
 a {
     text-decoration: none;
+}
+
+#about-me, #projects>article {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1em;
+}
+
+#projects>article figure>img {
+    /* box-shadow: 0 0 5px 3px white; */
 }
 
 body {
@@ -62,19 +72,25 @@ main>section #interests {
 }
 
 main>section {
-    padding: 0 0 3em 0;
+    padding: 0 0 10em 0;
 }
 
 main>section article {
     background-color: gray;
     box-shadow: 0 3px 5px black;
     border-radius: 15px;
+    height: 100%;
     padding: 1em;
     margin: 1em 0;
 }
 
-main>section article>img {
-    
+main>section article>figure {
+    margin: 0;
+}
+
+main>section article>figure figcaption {
+    font-weight: 600;
+    text-align: center;
 }
 
 main p {
