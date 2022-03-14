@@ -10,16 +10,14 @@ a {
 }
 
 #about-me, #projects>article {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 1em;
-}
-
-#projects>article figure>img {
-    /* box-shadow: 0 0 5px 3px white; */
+    align-items: center;
+    column-gap: 5em;
+    display: flex;
+    flex-direction: row;
 }
 
 body {
+    background: linear-gradient(90deg, #5598BD, 10%, white, 90%, #5598BD);
     display: flex;
     flex-direction: column;
     gap: 1em 0;
@@ -27,7 +25,7 @@ body {
 }
 
 footer {
-    background-color: gray;
+    background-color: #325B70;
     padding: 0.15em;
 }
 
@@ -39,10 +37,13 @@ footer>ul {
     list-style-type: none;
 }
 
+footer>ul li img:hover {
+    border: 2px dashed white;
+    border-radius: 30px;
+}
+
 header {
-    /* background-color: gray; */
     border-radius: 15px;
-    /* box-shadow: 0 5px 5px black; */
     padding: 1em;
     text-align: center;
 }
@@ -56,10 +57,15 @@ main a,
 main a:link,
 main a:visited {
     color: black;
+    font-weight: 600;
+}
+
+main p a {
+    color: #325B70;
 }
 
 main a:hover {
-    background: linear-gradient(0, aliceblue, grey 25%);
+    background: linear-gradient(0, darkslateblue, #B6DDF2 25%);
     font-weight: 700;
 }
 
@@ -67,17 +73,17 @@ main>section #interests {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1em 5em;
-    /* margin: auto; */
-    width: 80%;
+    width: 90%;
 }
 
-main>section {
+main>section:not(main>section:last-child) {
     padding: 0 0 10em 0;
 }
 
 main>section article {
-    background-color: gray;
-    box-shadow: 0 3px 5px black;
+    background-color: #B6DDF2;
+    box-shadow: 3px 3px 5px #546670;
+    border: 1px solid #546670;
     border-radius: 15px;
     height: 100%;
     padding: 1em;
@@ -98,8 +104,9 @@ main p {
 }
 
 nav {
-    background-color: gray;
-    padding: 1em;
+    background-color: #325B70;
+    padding: 1em 0;
+    width: 100%;
 }
 
 nav a,
@@ -109,7 +116,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    background: linear-gradient(0, aliceblue, grey 25%);
+    background: linear-gradient(0, aliceblue, #325B70 25%);
     font-weight: 700;
 }
 
@@ -124,4 +131,12 @@ nav>ul {
 
 nav>ul li {
     padding: 0 1.5em 0 0;
+}
+
+#projects>article {
+    padding: 1em 5em;
+}
+
+#projects>article:nth-of-type(2n) {
+    flex-direction: row-reverse;
 }
