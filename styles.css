@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html {
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about-me, #projects>article {
+    align-items: center;
+    column-gap: 5em;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background: linear-gradient(90deg, #5598BD, 10%, white, 90%, #5598BD);
+    display: flex;
+    flex-direction: column;
+    gap: 1em 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #325B70;
+    padding: 0.15em;
+}
+
+footer>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 1em;
+    list-style-type: none;
+}
+
+footer>ul li img:hover {
+    border: 2px dashed white;
+    border-radius: 30px;
+}
+
+header {
+    border-radius: 15px;
+    padding: 1em;
+    text-align: center;
+}
+
+header, main {
+    margin: auto;
+    max-width: 60%;
+}
+
+main a,
+main a:link,
+main a:visited {
+    color: black;
+    font-weight: 600;
+}
+
+main p a {
+    color: #325B70;
+}
+
+main a:hover {
+    background: linear-gradient(0, darkslateblue, #B6DDF2 25%);
+    font-weight: 700;
+}
+
+main>section #interests {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 5em;
+    width: 90%;
+}
+
+main>section:not(main>section:last-child) {
+    padding: 0 0 10em 0;
+}
+
+main>section article {
+    background-color: #B6DDF2;
+    box-shadow: 3px 3px 5px #546670;
+    border: 1px solid #546670;
+    border-radius: 15px;
+    height: 100%;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+main>section article>figure {
+    margin: 0;
+}
+
+main>section article>figure figcaption {
+    font-weight: 600;
+    text-align: center;
+}
+
+main p {
+    margin: 0;
+}
+
+nav {
+    background-color: #325B70;
+    padding: 1em 0;
+    width: 100%;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+    color: aliceblue;
+}
+
+nav a:hover {
+    background: linear-gradient(0, aliceblue, #325B70 25%);
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    max-width: 60%;
+}
+
+nav>ul li {
+    padding: 0 1.5em 0 0;
+}
+
+#projects>article {
+    padding: 1em 5em;
+}
+
+#projects>article:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
