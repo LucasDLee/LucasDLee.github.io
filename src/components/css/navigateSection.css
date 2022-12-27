@@ -1,0 +1,66 @@
+@keyframes border-transition {
+    from {
+        border-radius: 0;
+    }
+
+    to {
+        border-radius: 50px;
+    }
+}
+
+@keyframes border-transition-reverse {
+    from {
+        border-radius: 50px;
+    }
+    to {
+        border-radius: 0;
+    }
+}
+
+#home-section {
+    align-items: center;
+    background-color: #cfdced;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+}
+
+#home-section:nth-child(2n) {
+    background-color: #b0cad6;
+}
+
+#home-section h2 {
+    animation-name: border-transition-reverse;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    border: 5px solid white;
+    color: white;
+    font-size: 2.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#home-section h2:hover {
+    animation-name: border-transition;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 700px) {
+    #home-section h2 {
+        font-size: 3.5em;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #home-section h2 {
+        font-size: 4.5em;
+        padding: 1.5em;
+    }
+}

@@ -1,8 +1,14 @@
-function Projects() {
+import React from "react";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import reportWebVitals from "../reportWebVitals";
+
+export default function Projects() {
     return (
-        <section id="projects">
+        <main id="projects">
+            <NavBar />
             <h2>Projects</h2>
-            <article>
+            <section>
                 <figure>
                     <img src="images/snapshots/kaisel-bot-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="400" />
                     <figcaption>Snapshot of the website's home page displaying the games we support.</figcaption>
@@ -19,8 +25,8 @@ function Projects() {
                     </ul>
                 </div>
                 
-            </article>
-            <article>
+            </section>
+            <section>
                 <figure>
                     <img src="images/snapshots/eReceipt-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="200" />
                     <figcaption>Snapshot of the home page with folders of the receipts that can be stored.</figcaption>
@@ -37,9 +43,10 @@ function Projects() {
                     </ul>
                 </div>
                 
-            </article>
-        </section>
+            </section>
+            <Footer />
+        </main>
     )
 }
 
-export default Projects
+reportWebVitals()
