@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1c010ff.css",
-    "main.js": "/static/js/main.edfd9c04.js",
-    "static/js/787.f70ce778.chunk.js": "/static/js/787.f70ce778.chunk.js",
-    "index.html": "/index.html",
-    "main.b1c010ff.css.map": "/static/css/main.b1c010ff.css.map",
-    "main.edfd9c04.js.map": "/static/js/main.edfd9c04.js.map",
-    "787.f70ce778.chunk.js.map": "/static/js/787.f70ce778.chunk.js.map"
+    "main.css": "/LucasDLee/LucasDLee.github.io/static/css/main.85507372.css",
+    "main.js": "/LucasDLee/LucasDLee.github.io/static/js/main.ae1c803f.js",
+    "static/js/787.f70ce778.chunk.js": "/LucasDLee/LucasDLee.github.io/static/js/787.f70ce778.chunk.js",
+    "index.html": "/LucasDLee/LucasDLee.github.io/index.html",
+    "main.85507372.css.map": "/LucasDLee/LucasDLee.github.io/static/css/main.85507372.css.map",
+    "main.ae1c803f.js.map": "/LucasDLee/LucasDLee.github.io/static/js/main.ae1c803f.js.map",
+    "787.f70ce778.chunk.js.map": "/LucasDLee/LucasDLee.github.io/static/js/787.f70ce778.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1c010ff.css",
-    "static/js/main.edfd9c04.js"
+    "static/css/main.85507372.css",
+    "static/js/main.ae1c803f.js"
   ]
 }
