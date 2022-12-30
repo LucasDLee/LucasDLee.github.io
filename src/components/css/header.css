@@ -9,15 +9,28 @@
 
     100% {
         opacity: 0%;
-        transform: translateY(50px);
+        transform: rotate(45deg) translateX(50px) translateY(50px);
     }
 }
 
-#down {
+.arrow {
+    border: solid black;
+    border-width: 0 25px 25px 0;
+    display: inline-block;
+    max-height: 0;
+    padding: 25px;
+}
+
+.down-animation {
     animation-name: go-down;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+}
+
+.down-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 #home-header {
@@ -28,6 +41,7 @@
     justify-content: center;
     margin: 0;
     padding: 0.3em;
+    scroll-snap-align: center;
     text-align: center;
 }
 
@@ -74,5 +88,6 @@
     
     #home-header p {
         font-size: 1.75em;
+        max-width: 80%;
     }
 }

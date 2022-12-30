@@ -24,12 +24,12 @@ const workExpNav = {
 
 export default function Home() {
     return (
-        <main>
+        <div id="home">
             <Header />
             <NavigateSection {...aboutMeNav} />
             <NavigateSection {...projectsNav} />
             <NavigateSection {...workExpNav} />
-        </main>
+        </div>
     )
 }
 

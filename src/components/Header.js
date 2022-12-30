@@ -5,7 +5,7 @@ function Header() {
         <header id="home-header">
             <h1>Hello, I'm Lucas, <br></br>a software developer.</h1>
             <p>Here you'll find information about myself, the projects I have worked on and the places I have worked at.</p>
-            <img src="/images/Arrow-down.svg" width={200} height={200} alt="down arrow" id="down"></img>
+            <div class="arrow down-arrow down-animation"></div>
         </header>
     );
 }

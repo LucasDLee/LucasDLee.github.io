@@ -25,6 +25,7 @@
     justify-content: center;
     margin: 0;
     padding: 1em;
+    scroll-snap-align: center;
 }
 
 #home-section:nth-child(2n) {

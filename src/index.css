@@ -12,3 +12,14 @@ a {
 body {
     margin: 0;
 }
+
+#home {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+main h1 {
+    margin: 0;
+    padding: 0.25em;
+}
