@@ -6,18 +6,16 @@ import {
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
-import AboutMe from "./Pages/AboutMe";
-import Projects from "./Pages/Projects";
-import WorkExperience from "./Pages/WorkExperience";
+import OtherPages from "./Pages/OtherPages"
 
 function PageRouting() {
     return (
         <Router>
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/about" element={<AboutMe /> } />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/workexp" element={<WorkExperience />} />
+                <Route path="/about" element={<OtherPages /> } />
+                <Route path="/projects" element={<OtherPages />} />
+                <Route path="/workexp" element={<OtherPages />} />
                 <Route to="/" />
             </Routes>
         </Router>

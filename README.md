@@ -4,4 +4,4 @@ This repository holds the personal website and portfolio for Lucas Lee. In the w
 
 ## How to See the Website
 
-Click on the [link](https://lucasdlee.github.io/) or search up "https://lucasdlee.github.io/" to view the website.
+Visit [https://lucasdlee.github.io/](https://lucasdlee.github.io/) to view the website.
