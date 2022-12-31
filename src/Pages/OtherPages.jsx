@@ -38,32 +38,39 @@ export default function OtherPages() {
             }
         })
     }, [num]);
-
+    
     if(num < 0) {
         num = displaySections.length - 1
     } else if(num > displaySections.length - 1) {
         num = 0
     }
+
     return (
         <div id="holy-grail">
             <NavBar />
-            <h1 id="page-title">{headingTitle}</h1>
             <main>
-                <div class={leftArrow}></div>
-                <div id="other-page">{displaySections[num]}</div>
-                <div class={rightArrow}></div>    
+                <h1 id="page-title">{headingTitle}</h1>
+                <div id="content">
+                    <div className={leftArrow}></div>
+                    <div id="other-page">{displaySections[num]}</div>
+                    <div className={rightArrow}></div>    
+                </div>
             </main>
             <Footer />    
         </div>
     )
 }
 
+// About Me
 function WhoAmI() {
     return (
         <section>
             <h2>Who Am I?</h2>
-            <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
-            <p>Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter was making a calculator with Swift and Xcode. Eventually I learned more and more until I started my first 2 years of post-secondary education at Langara College and am finishing the rest of it at Simon Fraser University for a bachelor of computing science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills. If you ever need to contact me, my socials can be found at the bottom of the page. Thank you!</p>
+            <div className="about">
+                <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
+                <p>Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter was making a calculator with Swift and Xcode. Eventually I learned more and more until I started my first 2 years of post-secondary education at Langara College and am finishing the rest of it at Simon Fraser University for a bachelor of computing science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field. If you ever need to contact me, my socials can be found at the bottom of the page. Thank you!</p>    
+            </div>
+            
         </section>
     )
 }
@@ -72,35 +79,37 @@ function Skills() {
     return (
         <section>
             <h2>Skills</h2>
-            <article>
-                <h3>Proficient Programming Languages</h3>
-                <ul>
-                    <li>C++</li>
-                    <li>Go</li>
-                    <li>Java</li>
-                    <li>JavaScript (alongside HTML and CSS)</li>
-                    <li>Node JS</li>
-                    <li>PHP</li>
-                    <li>Python</li>
-                    <li>React (JS)</li>
-                    <li>SQL</li>
-                    <li>Ruby</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Familiar Tools</h3>
-                <ul>
-                    <li>Adobe Illustrator, Photoshop and Premire</li>
-                    <li>Android Studio</li>
-                    <li>Draw.io</li>
-                    <li>Eclipse IDE</li>
-                    <li>Figma</li>
-                    <li>Git</li>
-                    <li>QGIS</li>
-                    <li>Visual Studio Code</li>
-                    <li>Xcode</li>
-                </ul>
-            </article>
+            <div className="about">
+                <article>
+                    <h3>Proficient Programming Languages</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>Go</li>
+                        <li>Java</li>
+                        <li>JavaScript (alongside HTML and CSS)</li>
+                        <li>Node JS</li>
+                        <li>PHP</li>
+                        <li>Python</li>
+                        <li>React (JS)</li>
+                        <li>SQL</li>
+                        <li>Ruby</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Familiar Tools</h3>
+                    <ul>
+                        <li>Adobe Illustrator, Photoshop and Premire</li>
+                        <li>Android Studio</li>
+                        <li>Draw.io</li>
+                        <li>Eclipse IDE</li>
+                        <li>Figma</li>
+                        <li>Git</li>
+                        <li>QGIS</li>
+                        <li>Visual Studio Code</li>
+                        <li>Xcode</li>
+                    </ul>
+                </article>    
+            </div>
         </section>
     )
 }
@@ -110,7 +119,7 @@ function Education() {
         <section>
             <h2>Education</h2>
             <article>
-                <h3>Simon Fraser University</h3>
+                <h3><a href="https://www.sfu.ca/">Simon Fraser University</a></h3>
                 <p>June 2022 - Present</p>
             </article>
             <article>
@@ -125,39 +134,37 @@ function Education() {
     )
 }
 
+// Projects
 function KaiselBot() {
     return (
-        <section>
-            <figure>
-                <img src="images/snapshots/kaisel-bot-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="400" />
-                <figcaption>Snapshot of the website's home page displaying the games we support.</figcaption>
-            </figure>
+        <section className="project">
             <div>
-                <h2><a href="https://github.com/cedafiso0403/frontend-kaisel-bot">Project Kaisel</a></h2>
-                <h3>Developer</h3>
+                <h2><a href="https://github.com/cedafiso0403/frontend-kaisel-bot" id="kaisel-pic">Project Kaisel</a></h2>
+                <h3>Role: Developer</h3>
+                <h3>Duration: Janurary 2022 - April 2022</h3>
                 <p>During my time at Langara College, my team and I built a website that retrieves gaming statistics for the games League of Legends, Valorant, and Teamfight Tactics.</p>
                 <h3>Tech Stack and Software Used</h3>
                 <ul>
                     <li>Riot Games and Twitch APIs</li>
                     <li>React (JS)</li>
                     <li>CSS</li>
-                </ul>
+                </ul>    
             </div>
-            
+            <figure>
+                <img src="images/snapshots/kaisel-bot-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="400" />
+                <figcaption>Snapshot of the website's home page displaying the games we support.</figcaption>
+            </figure>
         </section>
     )
 }
 
 function EReceipt() {
     return (
-        <section>
-            <figure>
-                <img src="images/snapshots/eReceipt-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="200" />
-                <figcaption>Snapshot of the home page with folders of the receipts that can be stored.</figcaption>
-            </figure>
+        <section className="project">
             <div>
-                <h2>eReceipt</h2>
-                <h3>Project Manager/Developer</h3>
+                <h2><a href="https://github.com/Justindkw/e-receipt">eReceipt</a></h2>
+                <h3>Role: Project Manager/Developer</h3>
+                <h3>Duration: February 2020 - May 2020</h3>
                 <p>When I was in high school, I entered a program known as <a href="https://gameofapps.org/">Game of Apps</a> which teaches youth in high school a simplified overview of programming, teamwork, Git, and other skills used in the industry. In the program, my team built a receipt tracker app for individuals which they then would use to keep track of their budget.</p>
                 <h3>Tech Stack and Software Used</h3>
                 <ul>
@@ -166,10 +173,15 @@ function EReceipt() {
                     <li>XML</li>
                 </ul>
             </div>
+            <figure>
+                <img src="images/snapshots/eReceipt-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="200" />
+                <figcaption>Snapshot of the home page with folders of the receipts that can be stored.</figcaption>
+            </figure>
         </section>
     )
 }
 
+// Work Experience
 function C4() {
     return (
         <section>

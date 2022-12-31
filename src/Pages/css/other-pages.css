@@ -1,23 +1,31 @@
 .arrow-hover:hover {
-    border-color: #cfcbf7;
+    border-color: #74B7D6;
+}
+
+#content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
 }
 
 #holy-grail {
     display: flex;
     flex-direction: column;
-}
-
-main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 2em 0.5em;
+    max-width: 100vw;
 }
 
 .left {
     cursor: pointer;
     transform: rotate(225deg);
     -webkit-transform: rotate(225deg);
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .right {
@@ -27,28 +35,47 @@ main {
 }
 
 #other-page>section {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 25px;
+    box-shadow: 10px 10px 1px grey;
+    display: flex;
+    flex-direction: column;
     padding: 0.5em;
+    width: 60vw;
 }
 
 #page-title {
     text-align: center;
 }
 
-/* @media screen and (min-width: 700px) {
+.project {
+    display: flex;
+    flex-direction: row;
+}
 
-} */
-
-@media screen and (min-width: 1200px) {
-    #holy-grail {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
-        height: 100vh;
+@media screen and (min-width: 700px) {
+    .about {
+        column-gap: 2em;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about>p {
+        align-items: center;
+        display: flex;
     }
 
-    main {
+    #holy-grail {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #content {
         column-gap: 1em;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         padding: 1em 2em;
@@ -64,9 +91,10 @@ main {
         -webkit-transform: rotate(-45deg);
     }
 
-    #other-page>section {
+    #other-page .project {
+        flex-direction: row;
         margin: 0;
         padding: 1em;
-        width: 60vw;
+        /* width: 60vw; */
     }
 }

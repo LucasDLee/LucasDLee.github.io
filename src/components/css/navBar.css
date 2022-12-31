@@ -1,13 +1,12 @@
 nav {
-    background-color: #b0b6d6;
+    background-color: #518196;
     padding: 1em 0;
-    /* width: 100%; */
 }
 
 nav a,
 nav a:link,
 nav a:visited {
-    color: aliceblue;
+    color: black;
 }
 
 nav a:hover {
