@@ -34,13 +34,13 @@ main {
     -webkit-transform: rotate(45deg);
 }
 
-#other-page>section {
+main>section {
     border: 1px solid grey;
     border-radius: 25px;
     box-shadow: 10px 10px 1px grey;
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
+    padding: 1em;
     width: 60vw;
 }
 

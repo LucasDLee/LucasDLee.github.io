@@ -32,3 +32,19 @@ main h1 {
     margin: 0;
     padding: 0.25em;
 }
+
+table {
+    background-color: black;
+    text-align: left;
+}
+
+th, tr, td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em;
+    z-index: 1;
+}
+
+.work-exp>.work-header {
+    
+}

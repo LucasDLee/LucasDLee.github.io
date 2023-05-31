@@ -70,7 +70,6 @@ function WhoAmI() {
                 <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
                 <p>Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter was making a calculator with Swift and Xcode. Eventually I learned more and more until I started my first 2 years of post-secondary education at Langara College and am finishing the rest of it at Simon Fraser University for a bachelor of computing science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field. If you ever need to contact me, my socials can be found at the bottom of the page. Thank you!</p>    
             </div>
-            
         </section>
     )
 }
@@ -81,33 +80,54 @@ function Skills() {
             <h2>Skills</h2>
             <div className="about">
                 <article>
-                    <h3>Proficient Programming Languages</h3>
-                    <ul>
-                        <li>C++</li>
-                        <li>Go</li>
-                        <li>Java</li>
-                        <li>JavaScript (alongside HTML and CSS)</li>
-                        <li>Node JS</li>
-                        <li>PHP</li>
-                        <li>Python</li>
-                        <li>React (JS)</li>
-                        <li>SQL</li>
-                        <li>Ruby</li>
-                    </ul>
+                    <h3>Programming Languages</h3>
+                    <table>
+                        <tr>
+                            <th>Proficient With:</th>
+                            <th>Familiar With:</th>
+                        </tr>
+                        <tr>
+                            <td>JavaScript (alongside HTML and CSS)</td>
+                            <td>C++</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Java</td>
+                        </tr>
+                        <tr>
+                            <td>Ruby</td>
+                            <td>React JS</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>Ruby on Rails</td>
+                        </tr>
+                    </table>
                 </article>
                 <article>
-                    <h3>Familiar Tools</h3>
-                    <ul>
-                        <li>Adobe Illustrator, Photoshop and Premire</li>
-                        <li>Android Studio</li>
-                        <li>Draw.io</li>
-                        <li>Eclipse IDE</li>
-                        <li>Figma</li>
-                        <li>Git</li>
-                        <li>QGIS</li>
-                        <li>Visual Studio Code</li>
-                        <li>Xcode</li>
-                    </ul>
+                    <h3>Software / Tools</h3>
+                    <table>
+                        <tr>
+                            <th>Proficient With:</th>
+                            <th>Familiar With:</th>
+                        </tr>
+                        <tr>
+                            <td>Console / Terminal</td>
+                            <td>CICD Pipelines</td>
+                        </tr>
+                        <tr>
+                            <td>Figma</td>
+                            <td>MySQL</td>
+                        </tr>
+                        <tr>
+                            <td>Git</td>
+                            <td>Node JS</td>
+                        </tr>
+                        <tr>
+                            <td>Visual Studio Code</td>
+                            <td>REST APIs</td>
+                        </tr>
+                    </table>
                 </article>    
             </div>
         </section>
@@ -150,10 +170,10 @@ function KaiselBot() {
                     <li>CSS</li>
                 </ul>    
             </div>
-            <figure>
+            {/* <figure>
                 <img src="images/snapshots/kaisel-bot-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="400" />
                 <figcaption>Snapshot of the website's home page displaying the games we support.</figcaption>
-            </figure>
+            </figure> */}
         </section>
     )
 }
@@ -173,10 +193,10 @@ function EReceipt() {
                     <li>XML</li>
                 </ul>
             </div>
-            <figure>
+            {/* <figure>
                 <img src="images/snapshots/eReceipt-snapshot.webp" alt="kaisel-bot-snapshot" height="350" width="200" />
                 <figcaption>Snapshot of the home page with folders of the receipts that can be stored.</figcaption>
-            </figure>
+            </figure> */}
         </section>
     )
 }
@@ -184,15 +204,19 @@ function EReceipt() {
 // Work Experience
 function C4() {
     return (
-        <section>
-            <h2>Computer Instructor</h2>
-            <h3>City Centre Community Centre: Janurary 2022 - Present</h3>
-            <p>During my time as a computer instructor, I taught coding languages to preteen and youth groups, aged from 9 to 12 years old and 13 to 18 years old respectively. Here, I had a variety of duties including but not limited to:</p>
+        <section className="work-exp">
+            <div className="work-header">    
+                <h2>Computer Instructor</h2>
+                <hr></hr>
+                <h3>Janurary 2022 - Present</h3>
+            </div>
+            <h4>City Centre Community Centre</h4>
+            <p>During my time as a computer instructor, I taught coding languages to preteen and youth groups. Here, I had a variety of duties including but not limited to:</p>
             <ul>
-                <li>Creating lesson plans and activites for participants to demonstrate understanding</li>
-                <li>Teaching coding languages to participants, specifically JavaScript and Python</li>
-                <li>Supporting the growth and development of preteens/youth</li>
-                <li>Being a positive role model</li>
+                <li>Taught and introduced preteens (ages 9-12) and youth (ages 13-18) to JavaScript, Ruby, or Python in four groups each consisting of 12 students and spent 1 hour a week with each group with a near 100% attendance rate</li>
+                <li>Introduced intermediate software concepts to participants such as APIs, Discord Bots, Git, and basic object-oriented programming</li>
+                <li>Spent 1.5 hours a week independently developing lesson plans and activities from scratch for the participants to refine their understanding of JavaScript, Ruby, or Python</li>
+                <li>Support the growth and development of the preteens/youth by empowering them to be comfortable and confident with their newfound skills</li>
             </ul>
         </section>
     )
@@ -200,9 +224,13 @@ function C4() {
 
 function RYMP() {
     return (
-        <section>
-            <h2>Volunteer</h2>
-            <h3>Richmond Youth Media Lab: December 2019 - May 2020</h3>
+        <section className="work-exp">
+            <div className="work-header">
+                <h2>Volunteer</h2>
+                <hr></hr>
+                <h3>December 2019 - May 2020</h3>
+            </div>
+            <h4>Richmond Youth Media Lab</h4>
             <p>In 12th grade, I volunteered at the Richmond Media Lab for a work experience course based in technology and media arts</p>
             <ul>
                 <li>Assisted the mentors with tech related tasks</li>
