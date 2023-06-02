@@ -45,7 +45,7 @@ function RYMP() {
                 <h3>Dec 2019 - May 2020</h3>
             </header>
             <h4>Richmond Youth Media Lab</h4>
-            <p>In 12th grade, I volunteered at the Richmond Media Lab for a work experience course based in technology and media arts</p>
+            <p>In 12th grade, I volunteered at the Richmond Media Lab for a work experience course based in technology and media arts. Some things I did:</p>
             <ul>
                 <li>Assisted the mentors with tech related tasks</li>
                 <li>Created skill sessions that taught youth how to convert Adobe Illustrator files into CSS and how to use a JavaScript animation library known as Anime.js to create simple animations</li>
@@ -62,7 +62,7 @@ function DavesFishAndChips() {
                 <h3>Jun 2018 - Dec 2021</h3>
             </header>
             <h4>Dave's Fish and Chips</h4>
-            <p>During high school, I worked part time at a fish and chips shop in Richmond, BC. There I worked in a fast-paced team environment and demonstrated excellent customer service skills by communicating customer's takeout orders clearly and effectively while simultaneously handing it to them, also displaying the ability to multitask</p>
+            <p>During high school, I worked part time at a fish and chips shop in Richmond, BC, Canada. There I worked in a fast-paced team environment and demonstrated excellent customer service skills by communicating customer's takeout orders clearly and effectively while simultaneously handing it to them, also displaying the ability to multitask</p>
         </section>
     )
 }

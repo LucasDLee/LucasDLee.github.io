@@ -60,7 +60,7 @@ function Skills() {
                 </article>
                 <article>
                     <h3>DevOps</h3>
-                    <ul>zz
+                    <ul>
                         <li>GitHub</li>
                         <li>GitHub Actions</li>
                     </ul>
