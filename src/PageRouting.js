@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
-import OtherPages from "./Pages/OtherPages"
 import AboutMe from "./Pages/AboutMe";
 import Projects from "./Pages/Projects";
 import WorkExp from "./Pages/WorkExp";

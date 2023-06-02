@@ -1,8 +1,8 @@
 import React from 'react';
-import '../index.css';
 import reportWebVitals from '../reportWebVitals';
 import Header from '../components/Header.js';
 import { NavigateSection } from '../components/NavigateSection';
+import "./css/index.css"
 
 const aboutMeNav = {
 	name: "About Me",
