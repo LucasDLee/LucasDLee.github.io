@@ -23,7 +23,11 @@ function WhoAmI() {
             <h2>Who Am I?</h2>
             <div className="about">
                 <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
-                <p>Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode. Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and am finishing the rest of it at Simon Fraser University for a bachelor of computer science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field. If you ever need to contact me, my socials can be found at the bottom of the page. Thank you for reading this!</p>    
+                <article className="about-description">
+                    <p>Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode. Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field.</p>
+                    <p>If you ever need to contact me, my socials can be found at the bottom of the page. Thank you for reading this!</p>    
+                </article>
+                
             </div>
         </section>
     )
@@ -41,7 +45,6 @@ function Skills() {
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>React</li>
-                        <li>Ruby on Rails</li>
                     </ul>
                 </article>
                 <article>
@@ -50,10 +53,13 @@ function Skills() {
                         <li>Python</li>
                         <li>Ruby</li>
                         <li>SQL</li>
+                        <li>Ruby on Rails</li>
                         <li>Node.js</li>
                         <li>Java</li>
-                        <li>C++</li>
                         <li>REST API</li>
+                        <li>C++</li>
+                        <li>PHP</li>
+                        <li>Golang</li>
                         <li>MySQL</li>
                         <li>Swift</li>
                     </ul>
@@ -61,14 +67,14 @@ function Skills() {
                 <article>
                     <h3>DevOps</h3>
                     <ul>
-                        <li>GitHub</li>
+                        <li>Git</li>
                         <li>GitHub Actions</li>
                     </ul>
                 </article>
                 <article>
                     <h3>Tools</h3>
                     <ul>
-                        <li>Git</li>
+                        <li>GitHub</li>
                         <li>Figma</li>
                         <li>Chrome</li>
                         <li>VS Code</li>
