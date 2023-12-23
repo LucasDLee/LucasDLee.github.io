@@ -45,6 +45,7 @@ function Skills() {
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>React</li>
+                        <li>Vue</li>
                     </ul>
                 </article>
                 <article>
@@ -54,9 +55,8 @@ function Skills() {
                         <li>Ruby</li>
                         <li>SQL</li>
                         <li>Ruby on Rails</li>
-                        <li>Node.js</li>
                         <li>Java</li>
-                        <li>REST API</li>
+                        <li>REST APIs</li>
                         <li>C++</li>
                         <li>PHP</li>
                         <li>Golang</li>
