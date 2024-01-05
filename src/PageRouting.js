@@ -1,6 +1,6 @@
 // importing components from react-router-dom package
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route
 } from "react-router-dom";
@@ -12,7 +12,7 @@ import WorkExp from "./Pages/WorkExp";
 
 function PageRouting() {
     return (
-        <Router>
+        <Router baseline='/'>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<AboutMe /> } />
