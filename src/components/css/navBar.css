@@ -7,10 +7,26 @@ nav a,
 nav a:link,
 nav a:visited {
     color: black;
+    padding: 0.25rem 0;
 }
 
-nav a:hover {
+nav a::after {
+    content: '';
+    display: block;
+    height: 0.1rem;
+    margin-top: 5px;
+    position: relative;
+    /* right: 0; */
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+    width: 0;
+}
+
+nav a:hover:after {
+    background: black;
+    /* left: 0; */
     font-weight: 700;
+    width: 100%;
 }
 
 nav>ul {
