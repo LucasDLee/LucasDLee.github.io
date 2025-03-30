@@ -3,8 +3,12 @@ footer {
     padding: 0.5em 0;
 }
 
+footer img {
+    border: 3px dashed transparent;
+}
+
 footer img:hover {
-    border: 3px dashed white;
+    border-color: white;
     border-radius: 100px;
 }
 

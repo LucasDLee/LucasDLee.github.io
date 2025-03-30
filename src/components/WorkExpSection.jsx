@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Pages/css/work-exp.css"
 
-const WorkExperience = ({ title, date, company, link, description, bulletPoints }) => {
+const WorkExperience = ({ company, bulletPoints, date, description, link, title }) => {
   return (
     <section className="work-exp">
       <header className="work-header">

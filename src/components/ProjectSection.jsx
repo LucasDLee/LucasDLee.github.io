@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Pages/css/projects.css"
 
-const ProjectSection = ({ title, date, role, link, description, bulletPoints, techStack }) => {
+const ProjectSection = ({ activeLink, bulletPoints, date, description, link, role, techStack, title }) => {
   return (
     <section className="project">
       <header>
@@ -11,7 +11,7 @@ const ProjectSection = ({ title, date, role, link, description, bulletPoints, te
       <h3>{role}</h3>
       {link && (
         <a href={link} target="_blank" rel="noopener noreferrer">
-          {link}
+          {activeLink ? link : <s>{link}</s>}
         </a>
       )}
       <p>{description}</p>
