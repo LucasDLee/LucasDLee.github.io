@@ -30,6 +30,7 @@ nav a:hover:after {
 }
 
 nav>ul {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
