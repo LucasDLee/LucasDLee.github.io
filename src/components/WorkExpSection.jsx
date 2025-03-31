@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Pages/css/work-exp.css"
+import "../Pages/scss/work-exp.scss"
 
 const WorkExperience = ({ company, bulletPoints, date, description, link, title }) => {
   return (

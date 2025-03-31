@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Pages/css/projects.css"
+import "../Pages/scss/projects.scss"
 
 const ProjectSection = ({ activeLink, bulletPoints, date, description, link, role, techStack, title }) => {
   return (

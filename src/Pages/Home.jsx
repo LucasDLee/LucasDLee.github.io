@@ -2,7 +2,7 @@ import React from 'react';
 import reportWebVitals from '../reportWebVitals';
 import Header from '../components/Header.js';
 import { NavigateSection } from '../components/NavigateSection';
-import "./css/index.css"
+import "./scss/index.scss"
 
 const aboutMeNav = {
 	name: "About Me",

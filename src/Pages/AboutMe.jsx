@@ -1,6 +1,6 @@
 import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
-import './css/about-me.css'
+import './scss/about-me.scss'
 
 export default function AboutMe() {
     return (
