@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./css/navigateSection.css"
+import "./scss/navigateSection.scss"
 
 export class NavigateSection extends React.Component {
     render() {

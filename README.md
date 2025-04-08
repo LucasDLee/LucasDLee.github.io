@@ -6,4 +6,7 @@ This repository holds the personal website and portfolio for Lucas Lee. In the w
 
 Visit [https://lucasdlee.github.io/](https://lucasdlee.github.io/) to view the website.
 
-> Note to self: Use ``npm run deploy`` at anytime to update the website to the internet
+## Attributions
+
+- **[Simple Icons](https://simpleicons.org/)**: Icons found in the *Projects* section
+ 

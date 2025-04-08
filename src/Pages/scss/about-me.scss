@@ -1,0 +1,64 @@
+@mixin list-styles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.25em;
+    list-style-type: none;
+    margin: 0.3em 0;
+    padding: 0;
+}
+
+@mixin list-item-styles {
+    border-radius: 5px;
+    background-color: #74B7D6;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.about {
+    img {
+        border: 2px solid black;
+        box-shadow: 3px 3px 1px grey;
+    }
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+
+    h3 {
+        margin: 0.1em;
+    }
+
+    ul {
+        @include list-styles;
+    }
+
+    ul li {
+        @include list-item-styles;
+    }
+}
+
+.project .tech-stack {
+    ul {
+        @include list-styles;
+    }
+
+    ul li {
+        @include list-item-styles;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .about {
+        column-gap: 2em;
+        display: flex;
+        flex-direction: row;
+
+        > p {
+            align-items: center;
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.work-exp {
+    h4 {
+        margin: 0;
+    }
+    
+    p {
+        margin: 0.25em 0;
+    }
+    
+    ul li {
+        margin: 0.2rem 0;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        .work-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
