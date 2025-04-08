@@ -2,6 +2,8 @@ import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
 import WorkExpSection from "../components/WorkExpSection"
 
+const noLogoPlaceholder = "logo-placeholder"
+
 const workExperience = [
     {
         bulletPoints: [
@@ -12,7 +14,9 @@ const workExperience = [
         company: "Adapt Technologies Consulting Inc.",
         date: "May - Dec 2024",
         description: "Gaining hands on experience building and upgrading pharmacare ERP systems, I worked with both the frontend and backend technical components using SAP software. Here, I had a variety of duties including but not limited to:",
-        title: "SAP Intern Developer"
+        logo: "adapt_technologies_consulting_inc_logo",
+        title: "SAP Intern Developer",
+        website: "https://www.linkedin.com/company/adapt-technologies-consulting-inc/"
     },
     {
         bulletPoints: [
@@ -24,7 +28,9 @@ const workExperience = [
         company: "Environment and Climate Change Canada",
         date: "Sept 2023 - Apr 2024",
         description: "Working with ECCC as a co-op student, I am part of their Weather Transformation project which aims to modernize the way they distribute weather data to the public. Here, I had a variety of duties including but not limited to:",
-        title: "Junior Software Developer (Co-op)"
+        logo: "environment_canada_logo",
+        title: "Junior Software Developer (Co-op)",
+        website: "https://www.linkedin.com/company/environment-canada"
     },
     {
         bulletPoints: [
@@ -36,13 +42,15 @@ const workExperience = [
         company: "City Centre Community Centre",
         date: "Jan 2022 - Dec 2023",
         description: "During my time as a computer instructor, I taught programming languages to preteen (ages 9-12) and youth (ages 13-18) groups. Here, I had a variety of duties including but not limited to:",
-        link: "https://github.com/LucasDLee/C4-Notes-and-Code",
-        title: "Computer Instructor (Part-Time Seasonal)"
+        logo: "mycitycentre_logo",
+        title: "Computer Instructor",
+        website: "https://www.linkedin.com/company/mycitycentre/"
     },
     {
         company: "Dave's Fish and Chips",
         date: "Jun 2018 - Dec 2021",
         description: "During high school, I worked part time at a fish and chips shop in Richmond, BC, Canada. There I worked in a fast-paced team environment and demonstrated excellent customer service skills by communicating customer's takeout orders clearly and effectively while simultaneously handing it to them, also displaying the ability to multitask",
+        logo: noLogoPlaceholder,
         title: "Kitchen Staff"
     },
     {
@@ -53,6 +61,7 @@ const workExperience = [
         company: "Richmond Youth Media Lab",
         date: "Dec 2019 - May 2020",
         description: "In 12th grade, I volunteered at the Richmond Media Lab for a work experience course based in technology and media arts. Some things I did:",
+        logo: noLogoPlaceholder,
         title: "Volunteer"
     }    
 ]
@@ -70,8 +79,9 @@ export default function WorkExp() {
                             company={val.company}
                             date={val.date}
                             description={val.description}
-                            link={val.link}
+                            logo={val.logo}
                             title={val.title}
+                            website={val.website}
                             key={i}
                         />
                     })

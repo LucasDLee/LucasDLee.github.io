@@ -126,15 +126,15 @@ function Education() {
             <div id="education">
                 {
                     schools.map((school, i) => (
-                        <div className="school" key={i}>
+                        <div className="experience" key={i}>
                             <a href={school.website} target="_blank" rel="noreferrer"><img src={`images/school-logos/${school.logo}.png`} alt={school.name} height={75} width={75} /></a>
-                            <div className="school-description">
+                            <div className="experience-description">
                                 <div>
                                     <h3>{school.name}</h3>
                                     <p>{school.study}</p>
                                 </div>
-                                <div className="school-separator" />
-                                <p className="school-duration">{school.duration}</p>
+                                <div className="experience-separator" />
+                                <p className="experience-duration">{school.duration}</p>
                             </div>
                         </div>
                     ))

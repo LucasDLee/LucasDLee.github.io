@@ -22,40 +22,6 @@
     }
 }
 
-#education {
-    padding: 0.5em 0;
-
-    img {
-        border: 3px dashed transparent;
-
-        &:hover {
-            border-color: black;
-            border-radius: 100px;
-        }
-    }
-
-    p {
-        display: flex;
-        align-items: center;
-        margin: 0.25rem 0;
-    }
-
-    h3 {
-        margin: 0;
-    }
-
-    .school {
-        display: flex;
-        flex-direction: row;
-        gap: 0.5em;
-        padding: 0.5em 0;
-    }
-
-    .school-separator {
-        border-top: 3px none black;
-    }
-}
-
 #skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,36 +47,6 @@
 
     ul li {
         @include list-item-styles;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    #education {
-        div {
-            align-self: center;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .school {
-            display: grid;
-            grid-template-columns: auto 1fr;
-        }
-
-        .school-description {
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            gap: 0.5em;
-            padding: 0.5em 0;
-        }
-
-        .school-duration {
-            text-align: right;
-        }
-
-        .school-separator {
-            border-top-style: dotted;
-        }
     }
 }
 
