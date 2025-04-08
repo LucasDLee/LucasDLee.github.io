@@ -5,7 +5,7 @@ const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, lin
   return (
     <section className="project">
       <div className="experience">
-				<a href={link} target="_blank" rel="noreferrer" title={activeLink ? '' : 'This resource is deactivated at the moment.'} ><img src={`images/language-icons/${icon}.png`} alt={role} height={75} width={75} /></a>
+				<a href={link} target="_blank" rel="noreferrer" title={activeLink ? 'Check out the project!' : 'This resource is deactivated at the moment.'} ><img src={`images/language-icons/${icon}.png`} alt={role} height={75} width={75} /></a>
 				<div className="experience-description">
 					<div>
 						<h3>{title}</h3>

@@ -5,7 +5,7 @@ const WorkExperience = ({ bulletPoints, company, date, description, logo, title,
 	return (
 		<section>
 			<div className="experience">
-				<a href={website} target="_blank" rel="noreferrer" title={website === undefined ? 'There are no external resources from this organization.' : ''}><img src={`images/company-logos/${logo}.png`} alt={company} height={75} width={75} /></a>
+				<a href={website} target="_blank" rel="noreferrer" title={website === undefined ? 'There are no external resources from this organization.' : 'Learn more information about the organization here!'}><img src={`images/company-logos/${logo}.png`} alt={company} height={75} width={75} /></a>
 				<div className="experience-description">
 					<div>
 						<h3>{title}</h3>
