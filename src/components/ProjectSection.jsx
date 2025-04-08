@@ -1,19 +1,20 @@
 import React from 'react';
 import "../Pages/scss/projects.scss"
 
-const ProjectSection = ({ activeLink, bulletPoints, date, description, link, role, techStack, title }) => {
+const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, link, role, techStack, title }) => {
   return (
     <section className="project">
-      <header>
-        <h2>{title}</h2>
-        <h3>{date}</h3>
-      </header>
-      <h3>{role}</h3>
-      {link && (
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          {activeLink ? link : <s>{link}</s>}
-        </a>
-      )}
+      <div className="experience">
+				<a href={link} target="_blank" rel="noreferrer" title={activeLink ? '' : 'This resource is deactivated at the moment.'} ><img src={`images/language-icons/${icon}.png`} alt={role} height={75} width={75} /></a>
+				<div className="experience-description">
+					<div>
+						<h3>{title}</h3>
+						<h4>{role}</h4>
+					</div>
+					<div className="experience-separator" />
+					<p className="experience-duration">{date}</p>
+				</div>
+			</div>
       <p>{description}</p>
       {bulletPoints && (
         <ul>

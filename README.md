@@ -5,3 +5,8 @@ This repository holds the personal website and portfolio for Lucas Lee. In the w
 ## How to See the Website
 
 Visit [https://lucasdlee.github.io/](https://lucasdlee.github.io/) to view the website.
+
+## Attributions
+
+- **[Simple Icons](https://simpleicons.org/)**: Icons found in the *Projects* section
+ 

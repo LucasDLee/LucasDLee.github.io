@@ -7,6 +7,7 @@ const projects = [
         activeLink: true,
         date: 'Sept - Dec 2024',
         description: 'I had the chance to learn more about Android mobile development in SFU\'s Mobile Applications Programming and Design course. Our 4-person group built a cat-adoption app that allows people to have an easier time understanding how to adopt and care for a cat. It even comes with an AI chatbot!',
+        icon: 'android',
         link: 'https://lucasdlee.github.io/Whiskr/',
         role: 'Android Developer',
         techStack: ['Kotlin', 'Adopt-a-Pet API', 'Google Maps', 'Firebase', 'Botpress'],
@@ -16,7 +17,8 @@ const projects = [
         activeLink: false,
         date: 'Dec 2023 - Feb 2024',
         description: 'I like cats so I decided to make a map that displays all cat cafes in Canada.',
-        link: 'https://github.com/LucasDLee/Cats-Canada',
+        icon: 'vuedotjs',
+        // link: 'https://github.com/LucasDLee/Cats-Canada',
         role: 'Frontend Developer',
         techStack: ['Vue 3'],
         title: 'Cats Canada'
@@ -29,7 +31,8 @@ const projects = [
         ],
         date: 'Mar - Aug 2023',
         description: 'One thing I do is keep track of my income and expenses using an Excel sheet. One day, I decided to build a fullstack application using Ruby on Rails to make it easier to track, record, and edit my income and expenses. Some things I did:',
-        link: 'https://github.com/LucasDLee/Saver',
+        icon: 'rubyonrails',
+        // link: 'https://github.com/LucasDLee/Saver',
         role: 'Full-Stack Developer',
         techStack: ['Ruby on Rails', 'SQLite3', 'CSS'],
         title: 'Saver'
@@ -42,6 +45,7 @@ const projects = [
         ],
         date: 'Jan - Feb 2023',
         description: 'While taking an astronomy course at SFU, I learned about NASA\'s Astronomy Picture of the Day (APOD) which displays a new astronomy picture of the day. I thought it would be cool to make a Discord bot that integrates APOD. Some things I did:',
+        icon: 'python',
         link: 'https://github.com/LucasDLee/APOD-Bot',
         role: 'Python Developer',
         techStack: ['Python', 'discord.py (Python library built for Discord)', 'HTTPS/REST Discord API', 'NASA\'s GET API', 'Git'],
@@ -51,6 +55,7 @@ const projects = [
         activeLink: true,
         date: 'Apr - May 2022',
         description: 'Recreated tic-tac-toe in C++ by simulating the game\'s board, symbol placement, and other mechanics through the console',
+        icon: 'cplusplus',
         link: 'https://github.com/LucasDLee/Tic-Tac-Toe',
         role: 'Backend Developer',
         techStack: ['C++'],
@@ -66,6 +71,7 @@ const projects = [
         ],
         date: 'Jan - Apr 2022',
         description: 'During my time at Langara College, one of the courses I took introduced software practices that professionals use in the industry. For our final project, I developed a frontend application in a 4-person group that uses the Riot Games and Twitch REST APIs to display someone\'s League of Legends account and see the featured Twitch streamers for their selected game respectively following an Agile SDLC. Some things I did:',
+        icon: 'react',
         link: 'https://github.com/cedafiso0403/frontend-kaisel-bot',
         role: 'Frontend Developer',
         techStack: ['React (JS)', 'CSS', 'Riot Games and Twitch REST APIs', 'npm', 'GitHub Pages'],
@@ -81,6 +87,7 @@ const projects = [
         ],
         date: 'Feb - May 2020',
         description: 'When I was in high school, I entered a program known as Game of Apps which teaches youth in high school a simplified overview of programming, teamwork, Git, and other skills used in the industry. In the program, my team built a receipt tracker app for individuals which they then would use to keep track of their budget. Some things I did:',
+        icon: 'android',
         link: 'https://github.com/Justindkw/e-receipt',
         role: 'Project Manager / Developer',
         techStack: ['Android Studio', 'Java', 'XML'],
@@ -101,6 +108,7 @@ export default function Projects() {
                             bulletPoints={val.bulletPoints}
                             date={val.date}
                             description={val.description}
+                            icon={val.icon}
                             link={val.link}
                             role={val.role}
                             techStack={val.techStack}
