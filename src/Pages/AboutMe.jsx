@@ -93,7 +93,7 @@ function Skills() {
 function Education() {
     const schools = [
         {
-            duration: 'Feb - May 2025',
+            duration: 'Feb - July 2025',
             logo: 'vu-amsterdam',
             name: 'Vrije Universiteit Amsterdam',
             study: 'Exchange Semester',
@@ -154,11 +154,11 @@ function Countries() {
         "bg", // bulgaria
         "ca", // canada
         "cz", // czechia
-        "ee", // estonia
+        "ee", // estonia=
         "fi", // finland
         "fr", // france
         "de", // germany
-        "gr", // greece 
+        "gr", // greece
         "hk", // hong kong
         "hu", // hungary
         "it", // italy
@@ -182,19 +182,54 @@ function Countries() {
         "va"  // vatican city
     ]
 
+    const countryNames = {
+        at: "Austria",
+        be: "Belgium",
+        bm: "Bermuda",
+        bg: "Bulgaria",
+        ca: "Canada",
+        cz: "Czechia",
+        ee: "Estonia",
+        fi: "Finland",
+        fr: "France",
+        de: "Germany",
+        gr: "Greece",
+        hk: "Hong Kong",
+        hu: "Hungary",
+        it: "Italy",
+        jm: "Jamaica",
+        lv: "Latvia",
+        lt: "Lithuania",
+        lu: "Luxembourg",
+        mx: "Mexico",
+        nl: "Netherlands",
+        pt: "Portugal",
+        pr: "Puerto Rico",
+        ro: "Romania",
+        rs: "Serbia",
+        sk: "Slovakia",
+        es: "Spain",
+        ch: "Switzerland",
+        tr: "Turkiye",
+        tc: "Turks and Caicos",
+        gb: "United Kingdom",
+        us: "United States of America",
+        va: "Vatican City"
+    };
+
     return (
         <section>
-            <h2>Countries/Territories I've Visited</h2>
+            <h2>Places I've Visited</h2>
             
             <div id="travels">
             {
                 countryCodes.map((place, i) => (
                     <img
                         className="country-icon"
-                        tabIndex={i}    
-                        src={`https://flagcdn.com/h80/${place}.png`}
-                        // srcset={`https://flagcdn.com/h160/${place}.png 2x, https://flagcdn.com/h240/${place}.png 3x`}
-                        alt={place} />
+                        tabIndex={i}
+                        src={`https://hatscripts.github.io/circle-flags/flags/${place}.svg`}
+                        alt={countryNames[place] || place}
+                        title={countryNames[place] || place} />
                 ))
             }
             </div>

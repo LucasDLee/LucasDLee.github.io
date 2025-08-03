@@ -9,4 +9,4 @@ Visit [https://lucasdlee.github.io/](https://lucasdlee.github.io/) to view the w
 ## Attributions
 
 - **[Simple Icons](https://simpleicons.org/)**: Icons found in the *Projects* section
- 
+- **[Country Icons](https://github.com/HatScripts/circle-flags)**: Flags for countries/territories I've been to

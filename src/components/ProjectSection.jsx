@@ -1,4 +1,3 @@
-import React from 'react';
 import "../Pages/scss/projects.scss"
 
 const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, link, role, techStack, title }) => {
