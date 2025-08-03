@@ -50,6 +50,14 @@
     }
 }
 
+.country-icon {
+    border: 3px solid black;
+    margin: 0.25em;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
 @media screen and (min-width: 700px) {
     .about {
         column-gap: 2em;

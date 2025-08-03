@@ -11,6 +11,7 @@ export default function AboutMe() {
                 <WhoAmI />
                 <Skills />
                 <Education />    
+                <Countries />
             </main>
             <Footer />
         </div>
@@ -22,9 +23,11 @@ function WhoAmI() {
         <section>
             <h2>Who Am I?</h2>
             <div className="about">
-                <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
+                <img src="images/profile-pic2.webp" height="250" width="200" alt="me" />
                 <article className="about-description">
-                    <p>Hello there! Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode. Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field!</p>
+                    <p>Hello there! Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode.</p>
+                    <p>Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science.</p>
+                    <p>I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field!</p>
                     <p>If you ever need to contact me, my socials can be found at the bottom of the page. Thank you for reading this!</p>    
                 </article>
                 
@@ -76,7 +79,6 @@ function Skills() {
                     <ul>
                         <li>GitHub</li>
                         <li>Figma</li>
-                        <li>Chrome</li>
                         <li>VS Code</li>
                         <li>npm</li>
                         <li>Android Studio</li>
@@ -111,13 +113,13 @@ function Education() {
             study: 'Computer Science Program',
             website: 'https://langara.ca/'
         },
-        {
-            duration: 'Sept 2016 - Jun 2020',
-            logo: 'mcmath',
-            name: 'McMath Secondary School',
-            study: 'High School Diploma',
-            website: 'https://mcmath.sd38.bc.ca/'
-        }
+        // {
+        //     duration: 'Sept 2016 - Jun 2020',
+        //     logo: 'mcmath',
+        //     name: 'McMath Secondary School',
+        //     study: 'High School Diploma',
+        //     website: 'https://mcmath.sd38.bc.ca/'
+        // }
     ]
 
     return (
@@ -139,6 +141,62 @@ function Education() {
                         </div>
                     ))
                 }
+            </div>
+        </section>
+    )
+}
+
+function Countries() {
+    const countryCodes = [
+        "at", // austria
+        "be", // belgium
+        "bm", // bermuda
+        "bg", // bulgaria
+        "ca", // canada
+        "cz", // czechia
+        "ee", // estonia
+        "fi", // finland
+        "fr", // france
+        "de", // germany
+        "gr", // greece 
+        "hk", // hong kong
+        "hu", // hungary
+        "it", // italy
+        "jm", // jamaica
+        "lv", // latvia
+        "lt", // lithuania
+        "lu", // luxembourg
+        "mx", // mexico
+        "nl", // netherlands
+        "pt", // portugal
+        "pr", // peurto rico
+        "ro", // romania
+        "rs", // serbia
+        "sk", // slovakia
+        "es", // spain
+        "ch", // switzerland,
+        "tr", // turkiye
+        "tc", // turks and caicos
+        "gb", // united kingdom,
+        "us", // united states of america,
+        "va"  // vatican city
+    ]
+
+    return (
+        <section>
+            <h2>Countries/Territories I've Visited</h2>
+            
+            <div id="travels">
+            {
+                countryCodes.map((place, i) => (
+                    <img
+                        className="country-icon"
+                        tabIndex={i}    
+                        src={`https://flagcdn.com/h80/${place}.png`}
+                        // srcset={`https://flagcdn.com/h160/${place}.png 2x, https://flagcdn.com/h240/${place}.png 3x`}
+                        alt={place} />
+                ))
+            }
             </div>
         </section>
     )
