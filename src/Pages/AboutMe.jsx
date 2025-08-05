@@ -154,7 +154,8 @@ function Countries() {
         "bg", // bulgaria
         "ca", // canada
         "cz", // czechia
-        "ee", // estonia=
+        "gb-eng", // england
+        "ee", // estonia
         "fi", // finland
         "fr", // france
         "de", // germany
@@ -177,7 +178,7 @@ function Countries() {
         "ch", // switzerland,
         "tr", // turkiye
         "tc", // turks and caicos
-        "gb", // united kingdom,
+        // "gb", // united kingdom,
         "us", // united states of america,
         "va"  // vatican city
     ]
@@ -189,6 +190,7 @@ function Countries() {
         bg: "Bulgaria",
         ca: "Canada",
         cz: "Czechia",
+        "gb-eng": "England",
         ee: "Estonia",
         fi: "Finland",
         fr: "France",
