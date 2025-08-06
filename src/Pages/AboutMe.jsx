@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
+import { countries } from "../constants"
 import './scss/about-me.scss'
 
 export default function AboutMe() {
@@ -147,91 +148,20 @@ function Education() {
 }
 
 function Countries() {
-    const countryCodes = [
-        "at", // austria
-        "be", // belgium
-        "bm", // bermuda
-        "bg", // bulgaria
-        "ca", // canada
-        "cz", // czechia
-        "gb-eng", // england
-        "ee", // estonia
-        "fi", // finland
-        "fr", // france
-        "de", // germany
-        "gr", // greece
-        "hk", // hong kong
-        "hu", // hungary
-        "it", // italy
-        "jm", // jamaica
-        "lv", // latvia
-        "lt", // lithuania
-        "lu", // luxembourg
-        "mx", // mexico
-        "nl", // netherlands
-        "pt", // portugal
-        "pr", // peurto rico
-        "ro", // romania
-        "rs", // serbia
-        "sk", // slovakia
-        "es", // spain
-        "ch", // switzerland,
-        "tr", // turkiye
-        "tc", // turks and caicos
-        // "gb", // united kingdom,
-        "us", // united states of america,
-        "va"  // vatican city
-    ]
-
-    const countryNames = {
-        at: "Austria",
-        be: "Belgium",
-        bm: "Bermuda",
-        bg: "Bulgaria",
-        ca: "Canada",
-        cz: "Czechia",
-        "gb-eng": "England",
-        ee: "Estonia",
-        fi: "Finland",
-        fr: "France",
-        de: "Germany",
-        gr: "Greece",
-        hk: "Hong Kong",
-        hu: "Hungary",
-        it: "Italy",
-        jm: "Jamaica",
-        lv: "Latvia",
-        lt: "Lithuania",
-        lu: "Luxembourg",
-        mx: "Mexico",
-        nl: "Netherlands",
-        pt: "Portugal",
-        pr: "Puerto Rico",
-        ro: "Romania",
-        rs: "Serbia",
-        sk: "Slovakia",
-        es: "Spain",
-        ch: "Switzerland",
-        tr: "Turkiye",
-        tc: "Turks and Caicos",
-        gb: "United Kingdom",
-        us: "United States of America",
-        va: "Vatican City"
-    };
-
     return (
         <section>
             <h2>Places I've Visited</h2>
             
             <div id="travels">
             {
-                countryCodes.map((place, i) => (
+                Object.entries(countries).map(([code, country], i) => (
                     <img
+                        key={i}
                         className="country-icon"
                         tabIndex={i}
-                        src={`https://hatscripts.github.io/circle-flags/flags/${place}.svg`}
-                        alt={countryNames[place] || place}
-                        title={countryNames[place] || place} />
+                        src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
+                        alt={country.name}
+                        title={country.name} />
                 ))
             }
             </div>

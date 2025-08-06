@@ -9,6 +9,7 @@ import Home from "./Pages/Home";
 import AboutMe from "./Pages/AboutMe";
 import Projects from "./Pages/Projects";
 import WorkExp from "./Pages/WorkExp";
+import PhotoAlbum from "./Pages/PhotoAlbum";
 
 function PageRouting() {
     return (
@@ -18,6 +19,7 @@ function PageRouting() {
                 <Route path="/about" element={<AboutMe /> } />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/workexp" element={<WorkExp />} />
+                <Route path="/photoalbum" element={<PhotoAlbum />} />
                 <Route to="/" />
             </Routes>
         </Router>
