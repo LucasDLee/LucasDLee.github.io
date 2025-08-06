@@ -51,11 +51,16 @@
 }
 
 .country-icon {
-    border: 1px solid black;
-    margin: 0.25em;
-    width: 75px;
-    height: 75px;
+    border: 3px dashed transparent;
     border-radius: 100px;
+    margin: 0.2em;
+    padding: 0.1rem;
+    height: 70px;
+    width: 70px;
+
+    &:hover {
+        border-color: black;
+    }
 }
 
 @media screen and (min-width: 700px) {

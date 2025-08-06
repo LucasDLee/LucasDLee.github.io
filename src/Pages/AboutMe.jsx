@@ -1,6 +1,7 @@
 import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
 import { countries } from "../constants"
+import { Link } from 'react-router-dom';
 import './scss/about-me.scss'
 
 export default function AboutMe() {
@@ -155,13 +156,15 @@ function Countries() {
             <div id="travels">
             {
                 Object.entries(countries).map(([code, country], i) => (
-                    <img
-                        key={i}
-                        className="country-icon"
-                        tabIndex={i}
-                        src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
-                        alt={country.name}
-                        title={country.name} />
+                    <Link to={`/photoalbum#${code}`}>
+                        <img
+                            key={i}
+                            className="country-icon"
+                            tabIndex={i}
+                            src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
+                            alt={country.name}
+                            title={country.name} />
+                    </Link>
                 ))
             }
             </div>

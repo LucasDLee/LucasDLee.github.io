@@ -23,7 +23,48 @@ export const countryCodesForPhotos = [
 ]
 
 export const countries = {
-    at: { name: "Austria", cities: ["Vienna"] },
+    at: {
+        name: "Austria",
+        cities: ["Vienna"],
+        pictures: [
+            {
+                name: "augarten",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "cat",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "hietzing",
+                height: 4,
+                width: 5
+            },
+            {
+                name: "hundertwasserhaus",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "mozart",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "resselpark",
+                height: 2,
+                width: 3
+            },
+            {
+                name: "stephansplatz",
+                height: 4,
+                width: 3
+            }
+            
+        ]
+    },
     be: { name: "Belgium", cities: ["Antwerp", "Brussels", "Bruge", "Ghent"] },
     bm: { name: "Bermuda", cities: [] },
     bg: { name: "Bulgaria", cities: ["Sofia"] },

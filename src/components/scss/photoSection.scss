@@ -1,7 +1,18 @@
 .photos {
-    background-color: blue !important;
+    width: 75vw;
+}
+
+.photos-separator {
+    align-items: center;
     border: none;
+    border-bottom: 0.5px dotted black;
     border-radius: 0;
     box-shadow: none;
-    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+
+    &:last-child {
+        border: none;
+    }
 }
