@@ -15,12 +15,12 @@ const PhotoSection = ({ code }) => {
 
 	if (Array.isArray(album)) {
 		album = album.map((img) => {
-			let imgName = String(img.name).charAt(0).toUpperCase() + String(img.name).slice(1)
+			let imgName = String(img.fileName).charAt(0).toUpperCase() + String(img.fileName).slice(1)
 
 			return {
-				alt: imgName,
-				src: `images/countries/${code}/${img.name}.webp`,
-				title: imgName,
+				alt: img.description || imgName,
+				src: `images/countries/${code}/${img.fileName}.webp`,
+				title: img.description || imgName,
 				height: img.height,
 				width: img.width
 			}
@@ -37,7 +37,7 @@ const PhotoSection = ({ code }) => {
 				<MasonryPhotoAlbum
 					photos={album}
 					columns={3}
-					spacing={10}
+					spacing={2.5}
 					padding={0} />
 			</div>
 		</section>
