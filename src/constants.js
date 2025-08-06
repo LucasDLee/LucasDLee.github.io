@@ -62,12 +62,76 @@ export const countries = {
                 height: 4,
                 width: 3
             }
-            
         ]
     },
     be: { name: "Belgium", cities: ["Antwerp", "Brussels", "Bruge", "Ghent"] },
     bm: { name: "Bermuda", cities: [] },
-    bg: { name: "Bulgaria", cities: ["Sofia"] },
+    bg: {
+        name: "Bulgaria",
+        cities: ["Sofia"],
+        pictures: [
+            {
+                name: "alleyway",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "artwork",
+                height: 3.5,
+                width: 3
+            },
+            {
+                name: "car",
+                height: 1,
+                width: 1
+            },
+            {
+                name: "church",
+                height: 2,
+                width: 2.5
+            },
+            {
+                name: "food",
+                height: 5,
+                width: 4
+            },
+            {
+                name: "hiking",
+                height: 2,
+                width: 3
+            },
+            {
+                name: "lake",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "monument",
+                height: 4,
+                width: 3
+            },
+            {
+                name: "protest",
+                height: 2.5,
+                width: 3
+            },
+            {
+                name: "street",
+                height: 3,
+                width: 2.5
+            },
+            {
+                name: "theatre",
+                height: 3,
+                width: 3.5
+            },
+            {
+                name: "waterfall",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
     ca: { name: "Canada", cities: ["Calgary", "Edmonton", "Montreal", "Toronto", "Quebec City", "Vancouver"] },
     cz: { name: "Czechia", cities: ["Prague"] },
     "gb-eng": { name: "England", cities: ["London"] },

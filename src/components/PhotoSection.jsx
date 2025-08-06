@@ -19,7 +19,7 @@ const PhotoSection = ({ code }) => {
 
 			return {
 				alt: imgName,
-				src: `images/countries/${code}/${img.name}.JPEG`,
+				src: `images/countries/${code}/${img.name}.webp`,
 				title: imgName,
 				height: img.height,
 				width: img.width
