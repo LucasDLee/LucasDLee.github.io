@@ -207,7 +207,7 @@ export const countries = {
                 description: "Alexander Nevsky Cathedral",
                 fileName: "church",
                 height: 1,
-                width: 1
+                width: 1.25
             },
             {
                 description: "Russian Embassy in Estonia",
@@ -232,6 +232,7 @@ export const countries = {
                 width: 3
             },
             {
+                description: "Estonian Nazgul",
                 fileName: "statue",
                 height: 4,
                 width: 3
@@ -322,15 +323,441 @@ export const countries = {
             },
         ]
     },
-    de: { name: "Germany", cities: ["Berlin", "Cologne", "Frankfurt", "Hamburg"] },
-    gr: { name: "Greece", cities: ["Athens"] },
+    de: {
+        name: "Germany",
+        cities: ["Berlin", "Cologne", "Frankfurt", "Hamburg"],
+        pictures: [
+            {
+                description: "Hamburg BUNKER",
+                fileName: "bunker",
+                height: 4,
+                width: 5
+            },
+            {
+                description: "Cologne Cathedral",
+                fileName: "cathedral",
+                height: 2.5,
+                width: 2
+            },
+            {
+                fileName: "frankfurt",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "East Side Gallery",
+                fileName: "gallery",
+                height: 2,
+                width: 3
+            },
+            {
+                fileName: "hafencity",
+                height: 4.5,
+                width: 5
+            },
+            {
+                description: "Denkmal für die Ermordeten Juden Europas",
+                fileName: "memorial",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Miniatur Wunderland",
+                fileName: "miniatur",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Reichstag Building",
+                fileName: "parliament",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "schnitzel",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Berlin Wall Memorial",
+                fileName: "wall",
+                height: 3,
+                width: 4
+            }            
+        ]
+    },
+    gr: {
+        name: "Greece",
+        cities: ["Athens"],
+        pictures: [
+            {
+                description: "National Garden",
+                fileName: "garden",
+                height: 4,
+                width: 5
+            },
+            {
+                description: "Pork gyro, yogurt with honey, and water",
+                fileName: "gyro",
+                height: 2.5,
+                width: 2
+            },
+            {
+                description: "Hadrian's Library",
+                fileName: "hadrian",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Mount Lycabettus",
+                fileName: "lycabettus",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "parthenon",
+                height: 4.5,
+                width: 5
+            },
+            {
+                description: "Panathenaic Stadium",
+                fileName: "stadium",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "street",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "sunset",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
     hk: { name: "Hong Kong", cities: [] },
-    hu: { name: "Hungary", cities: ["Budapest"] },
-    it: { name: "Italy", cities: ["Florence", "Milan", "Rome", "Venice"] },
+    hu: {
+        name: "Hungary",
+        cities: ["Budapest"],
+        pictures: [
+            {
+                description: "Budavári palota",
+                fileName: "castle",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Halászbástya",
+                fileName: "church",
+                height: 2.5,
+                width: 2
+            },
+            {
+                description: "Nagycasarnok",
+                fileName: "market",
+                height: 3,
+                width: 4.5
+            },
+            {
+                description: "Hungarian National Museum",
+                fileName: "museum",
+                height: 3,
+                width: 3
+            },
+            {
+                fileName: "parliament",
+                height: 4,
+                width: 5
+            },
+            {
+                description: "Shoes on the Danube Bank",
+                fileName: "shoes",
+                height: 5,
+                width: 4
+            },
+            {
+                fileName: "vajdahunyad",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "vendor",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "viewpoint",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
+    it: {
+        name: "Italy",
+        cities: ["Florence", "Milan", "Rome", "Venice"],
+        pictures: [
+            {
+                fileName: "alleyway",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Arsenale di Venezia",
+                fileName: "arsenal",
+                height: 2,
+                width: 2.5
+            },
+            {
+                description: "Basilica of Santa Croce in Florence",
+                fileName: "basilica",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "canal",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "church",
+                height: 4,
+                width: 5
+            },
+            {
+                fileName: "colosseum",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "DeeJay Festival in Milan",
+                fileName: "deejay",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "florence",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Castello Sforzesco",
+                fileName: "fortress",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "gelato",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Basilica Papale di Santa Maria Maggiore",
+                fileName: "mary",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Monumento a Vittorio Emanuele II",
+                fileName: "monumento",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Basilica di San Pietro",
+                fileName: "pietro",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "sandwich",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Monument in Venice",
+                fileName: "statue",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Street in Milan",
+                fileName: "street",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Fontana di Trevi",
+                fileName: "trevi",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Vatican City",
+                fileName: "vatican",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
     jm: { name: "Jamaica", cities: [] },
-    lt: { name: "Lithuania", cities: ["Kaunas", "Vilnius"] },
-    lv: { name: "Latvia", cities: ["Riga"] },
-    lu: { name: "Luxembourg", cities: ["Luxembourg City", "Vianden"] },
+    lt: {
+        name: "Lithuania",
+        cities: ["Kaunas", "Vilnius"],
+        pictures: [
+            {
+                description: "Vilnius Town Hall",
+                fileName: "capital",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Katedros aikštė",
+                fileName: "cathedral",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Kauno Šv. arkangelo Mykolo (Įgulos) bažnyčia",
+                fileName: "orthodox",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Office of the President of the Republic of Lithuania",
+                fileName: "president",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Beetroot soup",
+                fileName: "soup",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "street",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Republic of Užupis",
+                fileName: "uzupio",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "viewpoint",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
+    lu: {
+        name: "Luxembourg",
+        cities: ["Luxembourg City", "Vianden"],
+        pictures: [
+            {
+                description: "Statue of the Grand Duchess Charlotte",
+                fileName: "charlotte",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Casemates du Bock",
+                fileName: "cliff",
+                height: 3,
+                width: 4.5
+            },
+            {
+                description: "Fort Thüngen",
+                fileName: "fort",
+                height: 3,
+                width: 4.25
+            },
+            {
+                description: "Parc Edith Klein",
+                fileName: "garden",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "luxembourg",
+                height: 2.75,
+                width: 4
+            },
+            {
+                description: "Ave Maria",
+                fileName: "maria",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Gëlle Fra",
+                fileName: "memorial",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Neumünster Abbey",
+                fileName: "river",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "vianden",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Vianden Viewpoint",
+                fileName: "viewpoint",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
+    lv: {
+        name: "Latvia",
+        cities: ["Riga"],
+        pictures: [
+            {
+                description: "Piemineklis 1905. gada cīnītājiem",
+                fileName: "1905",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Melngalvju nams",
+                fileName: "blackhead",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Latvijas Nacionālā bibliotēka",
+                fileName: "library",
+                height: 3,
+                width: 4.5
+            },
+            {
+                description: "Brīvības piemineklis",
+                fileName: "memorial",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "riga",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "snail",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
     mx: { name: "Mexico", cities: [] },
     nl: { name: "Netherlands", cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Rotterdam", "The Hague", "Zwolle"] },
     pt: { name: "Portugal", cities: ["Lisbon"] },
