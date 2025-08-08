@@ -1,7 +1,7 @@
 import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
 import PhotoSection from "../components/PhotoSection"
-import { countryCodesForPhotos } from "../constants"
+import { countries } from "../constants"
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -28,8 +28,8 @@ export default function PhotoAlbum() {
 			<main>
 				<h1>Photo Album</h1>
 				{
-					countryCodesForPhotos.map((code) => (
-						<PhotoSection code={code} />
+					Object.keys(countries).map((code, i) => (
+						<PhotoSection key={i} code={code} />
 					))
 				}
 			</main>

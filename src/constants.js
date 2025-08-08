@@ -1,27 +1,3 @@
-export const countryCodesForPhotos = [
-    "at", // austria
-    "bg", // bulgaria
-    "cz", // czechia
-    "ee", // estonia
-    "fi", // finland
-    "fr", // france
-    "de", // germany
-    "gr", // greece
-    "hu", // hungary
-    "it", // italy
-    "lv", // latvia
-    "lt", // lithuania
-    "lu", // luxembourg
-    "nl", // netherlands
-    "pt", // portugal
-    "ro", // romania
-    "rs", // serbia
-    "sk", // slovakia
-    "es", // spain
-    "ch", // switzerland,
-    "tr", // turkiye
-]
-
 export const countries = {
     at: {
         name: "Austria",

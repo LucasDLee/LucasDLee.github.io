@@ -1,17 +1,46 @@
+import { useState, useEffect } from "react";
 import { MasonryPhotoAlbum } from "react-photo-album";
 import { countries } from "../constants"
 import "react-photo-album/masonry.css";
 import "./scss/photoSection.scss"
 
 const PhotoSection = ({ code }) => {
-	const country = countries[code];
 
-	if (!country) {
-		console.warn(`Country code '${code}' not found.`);
+	// Change number of columns based on window width
+	const [size, setSize] = useState({
+		width: window.innerWidth,
+		height: window.innerHeight
+	});
+
+	useEffect(() => {
+		const handleResize = () => {
+			setSize({
+				width: window.innerWidth,
+				height: window.innerHeight
+			});
+		};
+
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
+	let columnCount = 3
+	
+	if (size.width < 400)
+		columnCount = 1
+	else if (size.width < 650)
+		columnCount = 2
+	else
+		columnCount = 3
+	
+	// Generate images
+	const country = countries[code];
+	let album = country.pictures;
+
+	if (!album) {
+		// console.warn(`Country code '${code}' not found.`);
 		return null; // or return some fallback UI
 	}
-
-	let album = country.pictures;
 
 	if (Array.isArray(album)) {
 		album = album.map((img) => {
@@ -36,7 +65,7 @@ const PhotoSection = ({ code }) => {
 				<h3>{country.cities.join(" · ")}</h3>
 				<MasonryPhotoAlbum
 					photos={album}
-					columns={3}
+					columns={columnCount}
 					spacing={2.5}
 					padding={0} />
 			</div>
