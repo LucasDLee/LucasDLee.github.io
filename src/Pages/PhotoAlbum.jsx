@@ -2,36 +2,70 @@ import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
 import PhotoSection from "../components/PhotoSection"
 import { countries } from "../constants"
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import "./scss/photo-album.scss"
 
 export default function PhotoAlbum() {
 	const location = useLocation();
 
+	const [chosenCountry, setCountry] = useState("at");
+
 	useEffect(() => {
-		if (location.hash) {
-			const id = location.hash.substring(1);
+		let id;
+
+		// Decide which country to set
+		if (location.state?.chosenCountry) {
+			id = location.state.chosenCountry;
+		} else if (location.hash) {
+			id = location.hash.substring(1);
+		}
+
+		if (id) {
+			setCountry(id);
+
+			// Smooth scroll to the element if it exists
 			setTimeout(() => {
 			const el = document.getElementById(id);
 			if (el) {
-				const yOffset = -100; // Adjust this to match your header height
+				const yOffset = -100; // Adjust to match header height
 				const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
 				window.scrollTo({ top: y, behavior: 'smooth' });
 			}
 			}, 0);
 		}
-		}, [location]);
+	}, [location]);
+
+	
+
+	const namesArray = Object.entries(countries)
+		.filter(([_, country]) => country.pictures)
+		.map(([code, country], i, arr) => (
+			<span key={code} id={code}>
+				<Link
+					to={`/photoalbum#${code}`}
+					className="countryLink emulateH2"
+					onClick={() => setCountry(code)}
+				>
+					{country.name}
+				</Link>
+			<span className="emulateH2">
+			{i < arr.length - 1 && <span> · </span>}</span>
+			</span>
+		)
+	);
 
 	return (
 		<div>
 			<NavBar />
 			<main>
 				<h1>Photo Album</h1>
-				{
-					Object.keys(countries).map((code, i) => (
-						<PhotoSection key={i} code={code} />
-					))
-				}
+				<section className="photos-separator">
+					<div className="photos">
+						<p>{namesArray}</p>
+					</div>
+				</section>
+				<PhotoSection code={chosenCountry} />
 			</main>
 			<Footer />
 		</div>

@@ -157,7 +157,7 @@ function Countries() {
             {
                 Object.entries(countries).map(([code, country], i) => (
                     country.pictures ? ( // check if there are pictures associated with this country
-                        <Link to={`/photoalbum#${code}`} key={i}>
+                        <Link to={`/photoalbum#${code}`} key={i} state={{ chosenCountry: code }}>
                             <img
                                 className="country-icon"
                                 tabIndex={i}
@@ -168,6 +168,7 @@ function Countries() {
                         </Link>
                     ) : (
                         <img
+                            key={i}
                             className="country-icon"
                             tabIndex={i}
                             src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
