@@ -759,12 +759,353 @@ export const countries = {
         ]
     },
     mx: { name: "Mexico", cities: [] },
-    nl: { name: "Netherlands", cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Rotterdam", "The Hague", "Zwolle"] },
-    pt: { name: "Portugal", cities: ["Lisbon"] },
+    nl: {
+        name: "Netherlands",
+        cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Oosterbeek", "Rotterdam", "The Hague", "Zwolle"],
+        pictures: [
+            
+            {
+                fileName: "arnhem",
+                height: 1,
+                width: 1
+            },
+            {
+                description: "Museum Ons' Lieve Heer op Solder",
+                fileName: "attic",
+                height: 3,
+                width: 2.5
+            },
+            {
+                fileName: "begijnhof",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "canal",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Delft Blue",
+                fileName: "ceramics",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "delft",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "drawbridge",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "games",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "haarlem",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "kampen",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "kapsalon",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "kloveniersburgwal",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "leiden",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "nijmegen",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "nijntje",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "oosterbeek",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "rijksmuseum",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "rotterdam",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Het Scheepvaartmuseum",
+                fileName: "ship",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "windmill",
+                height: 4,
+                width: 3
+            },
+        ]
+    },
+    pt: {
+        name: "Portugal",
+        cities: ["Lisbon"],
+        pictures: [
+            {
+                description: "Arco da Rua Augusta",
+                fileName: "arch",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "artwork",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "bifana",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Ponte 25 de Abril",
+                fileName: "bridge",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "church",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "flower",
+                height: 3.25,
+                width: 4
+            },
+            {
+                description: "Castelo dos Mouros",
+                fileName: "fort",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Santuário de Cristo Rei",
+                fileName: "jesus",
+                height: 3.5,
+                width: 3
+            },
+            {
+                description: "Padrão dos Descobrimentos",
+                fileName: "monument",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Palácio Nacional de Sintra",
+                fileName: "sintra",
+                height: 3.75,
+                width: 3
+            },
+            {
+                fileName: "tram",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "viewpoint",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
     pr: { name: "Puerto Rico", cities: [] },
-    ro: { name: "Romania", cities: ["Bucharest"] },
-    rs: { name: "Serbia", cities: ["Belgrade"] },
-    sk: { name: "Slovakia", cities: ["Bratislava"] },
+    ro: {
+        name: "Romania",
+        cities: ["Bucharest"],
+        pictures: [
+            {
+                fileName: "cat",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Biserica Mănăstirii \"Stavropoleos\"",
+                fileName: "monastery",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Monumentul lui Iuliu Maniu",
+                fileName: "monument",
+                height: 3,
+                width: 3.75
+            },
+            {
+                description: "Palace of Parliament",
+                fileName: "palace",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Pasajul Macca - Villacrosse",
+                fileName: "passage",
+                height: 3.5,
+                width: 3
+            },
+            {
+                description: "Museum of Communism in Bucharest",
+                fileName: "revolution",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Mormântul Ostașului Necunoscut",
+                fileName: "soldier",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
+    rs: {
+        name: "Serbia",
+        cities: ["Belgrade"],
+        pictures: [
+            {
+                fileName: "belgrade",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "House of Flowers",
+                fileName: "flowers",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Gurmanska Pljevaska and Sopska salad",
+                fileName: "food",
+                height: 3.5,
+                width: 3
+            },
+            {
+                description: "Belgrade Fortress",
+                fileName: "fort",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Nationalistic slogan",
+                fileName: "graffiti",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Church of Saint Sava",
+                fileName: "orthodox",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Republic Square",
+                fileName: "square",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Monument to Toma Zdravković",
+                fileName: "statue",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Ljuba Popovic",
+                fileName: "streetart",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
+    sk: {
+        name: "Slovakia",
+        cities: ["Bratislava"],
+        pictures: [
+            {
+                description: "Farský kostol sv. Alžbety (Modrý kostolík)",
+                fileName: "church",
+                height: 3.5,
+                width: 3
+            },
+            {
+                description: "Pamätník bulharských partizánov",
+                fileName: "freedom",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Čumil",
+                fileName: "man",
+                height: 3.75,
+                width: 3
+            },
+            {
+                description: "Presidential Palace",
+                fileName: "president",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "slavin",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "street",
+                height: 4.25,
+                width: 3
+            },
+            {
+                description: "Underground passage",
+                fileName: "tunnel",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "House",
+                fileName: "vines",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Artwork",
+                fileName: "woman",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
     es: { name: "Spain", cities: ["Barcelona", "Madrid"] },
     ch: { name: "Switzerland", cities: ["Bern", "Grindelwald", "Interlaken", "Zurich"] },
     tr: { name: "Turkiye", cities: ["Istanbul"] },
