@@ -1106,9 +1106,208 @@ export const countries = {
             }
         ]
     },
-    es: { name: "Spain", cities: ["Barcelona", "Madrid"] },
-    ch: { name: "Switzerland", cities: ["Bern", "Grindelwald", "Interlaken", "Zurich"] },
-    tr: { name: "Turkiye", cities: ["Istanbul"] },
+    es: {
+        name: "Spain",
+        cities: ["Barcelona", "Madrid"],
+        pictures: [
+            {
+                fileName: "alleyway",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "barcelona",
+                height: 3.25,
+                width: 4
+            },
+            {
+                description: "Plaza de Toros de Las Ventas",
+                fileName: "bullring",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Calamari bun",
+                fileName: "calamari",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Parlament de Catalunya",
+                fileName: "catalan",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Castell de Montjuïc",
+                fileName: "fort",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Plaça de les Cascades",
+                fileName: "museum",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Royal Palace of Madrid",
+                fileName: "palace",
+                height: 3.25,
+                width: 4
+            },
+            {
+                description: "Plaça Reial",
+                fileName: "plaza",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Basílica de la Sagrada Família",
+                fileName: "sagrada",
+                height: 3.75,
+                width: 3
+            },
+            {
+                fileName: "sandwich",
+                height: 2.5,
+                width: 3
+            },
+            {
+                fileName: "tapas",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Plaza de la Villa",
+                fileName: "villa",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
+    ch: {
+        name: "Switzerland",
+        cities: ["Bern", "Grindelwald", "Interlaken", "Zurich"],
+        pictures: [
+            {
+                fileName: "bern",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "garden",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "grindelwald",
+                height: 3.25,
+                width: 4
+            },
+            {
+                fileName: "interlaken",
+                height: 2.5,
+                width: 3
+            },
+            {
+                fileName: "town",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "unterseen",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "zurich",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
+    tr: {
+        name: "Turkiye",
+        cities: ["Istanbul"],
+        pictures: [
+            {
+                description: "Sultanahmet Camii",
+                fileName: "blue",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "bosphorus",
+                height: 3.25,
+                width: 4.25
+            },
+            {
+                description: "Turkish Breakfast (missing French fries in picture)",
+                fileName: "breakfast",
+                height: 3.25,
+                width: 4
+            },
+            {
+                fileName: "car",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "cat",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "istanbul",
+                height: 3,
+                width: 4
+            },
+            {
+                fileName: "kazandibi",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "kebab",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "market",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Süleymaniye Camii",
+                fileName: "mosque",
+                height: 4,
+                width: 3
+            },
+            {
+                fileName: "sleepy",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Egyptian Bazaar",
+                fileName: "spice",
+                height: 3.5,
+                width: 3
+            },
+            {
+                fileName: "vendors",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Inside of a mosque",
+                fileName: "worship",
+                height: 4,
+                width: 3
+            }
+        ]
+    },
     tc: { name: "Turks and Caicos", cities: [] },
     gb: { name: "United Kingdom", cities: [] },
     us: { name: "United States of America", cities: [] },
