@@ -21,22 +21,21 @@ export default function PhotoAlbum() {
 			id = location.hash.substring(1);
 		}
 
-		if (id) {
+		// Ensure country tag exists
+		if (id && id in countries) {
 			setCountry(id);
 
 			// Smooth scroll to the element if it exists
 			setTimeout(() => {
-			const el = document.getElementById(id);
-			if (el) {
-				const yOffset = -100; // Adjust to match header height
-				const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
-				window.scrollTo({ top: y, behavior: 'smooth' });
-			}
+				const el = document.getElementById(id);
+				if (el) {
+					const yOffset = -100; // Adjust to match header height
+					const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+					window.scrollTo({ top: y, behavior: 'smooth' });
+				}
 			}, 0);
 		}
 	}, [location]);
-
-	
 
 	const namesArray = Object.entries(countries)
 		.filter(([_, country]) => country.pictures)
