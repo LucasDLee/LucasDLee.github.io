@@ -1,4 +1,3 @@
-import React from 'react';
 import "../Pages/scss/projects.scss"
 
 const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, link, role, techStack, title }) => {
@@ -23,7 +22,7 @@ const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, lin
           ))}
         </ul>
       )}
-      <h4>Tech Stack</h4>
+      <h3>Tech Stack</h3>
       <div className="tech-stack">
         <ul>
           {techStack.map((tech, index) => (

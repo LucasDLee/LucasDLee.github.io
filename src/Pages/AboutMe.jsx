@@ -1,5 +1,7 @@
 import Footer from "../components/Footer"
 import NavBar from "../components/NavBar"
+import { countries } from "../constants"
+import { Link } from 'react-router-dom';
 import './scss/about-me.scss'
 
 export default function AboutMe() {
@@ -11,6 +13,7 @@ export default function AboutMe() {
                 <WhoAmI />
                 <Skills />
                 <Education />    
+                <Countries />
             </main>
             <Footer />
         </div>
@@ -22,9 +25,11 @@ function WhoAmI() {
         <section>
             <h2>Who Am I?</h2>
             <div className="about">
-                <img src="images/profile-pic.webp" height="250" width="200" alt="me" />
+                <img src="images/profile-pic2.webp" height="250" width="200" alt="me" />
                 <article className="about-description">
-                    <p>Hello there! Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode. Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science. I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field!</p>
+                    <p>Hello there! Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode.</p>
+                    <p>Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science.</p>
+                    <p>I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field!</p>
                     <p>If you ever need to contact me, my socials can be found at the bottom of the page. Thank you for reading this!</p>    
                 </article>
                 
@@ -76,7 +81,6 @@ function Skills() {
                     <ul>
                         <li>GitHub</li>
                         <li>Figma</li>
-                        <li>Chrome</li>
                         <li>VS Code</li>
                         <li>npm</li>
                         <li>Android Studio</li>
@@ -91,7 +95,7 @@ function Skills() {
 function Education() {
     const schools = [
         {
-            duration: 'Feb - May 2025',
+            duration: 'Feb - July 2025',
             logo: 'vu-amsterdam',
             name: 'Vrije Universiteit Amsterdam',
             study: 'Exchange Semester',
@@ -111,13 +115,13 @@ function Education() {
             study: 'Computer Science Program',
             website: 'https://langara.ca/'
         },
-        {
-            duration: 'Sept 2016 - Jun 2020',
-            logo: 'mcmath',
-            name: 'McMath Secondary School',
-            study: 'High School Diploma',
-            website: 'https://mcmath.sd38.bc.ca/'
-        }
+        // {
+        //     duration: 'Sept 2016 - Jun 2020',
+        //     logo: 'mcmath',
+        //     name: 'McMath Secondary School',
+        //     study: 'High School Diploma',
+        //     website: 'https://mcmath.sd38.bc.ca/'
+        // }
     ]
 
     return (
@@ -139,6 +143,41 @@ function Education() {
                         </div>
                     ))
                 }
+            </div>
+        </section>
+    )
+}
+
+function Countries() {
+    return (
+        <section>
+            <h2>Places I've Visited</h2>
+            
+            <div id="travels">
+            {
+                Object.entries(countries).map(([code, country], i) => (
+                    country.pictures ? ( // check if there are pictures associated with this country
+                        <Link to={`/photoalbum#${code}`} key={i} state={{ chosenCountry: code }}>
+                            <img
+                                className="country-icon"
+                                tabIndex={i}
+                                src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
+                                alt={country.name}
+                                title={country.name}
+                            />
+                        </Link>
+                    ) : (
+                        <img
+                            key={i}
+                            className="country-icon"
+                            tabIndex={i}
+                            src={`https://hatscripts.github.io/circle-flags/flags/${code}.svg`}
+                            alt={country.name}
+                            title={country.name}
+                        />
+                    )
+                ))
+            }
             </div>
         </section>
     )

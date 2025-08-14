@@ -1,0 +1,24 @@
+.photos {
+    width: 95vw;
+}
+
+.photos-separator {
+    align-items: center;
+    border: none;
+    border-bottom: 0.5px dotted black;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+
+    &:last-child {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .photos {
+        width: 75vw;
+    }
+}

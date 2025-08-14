@@ -19,6 +19,7 @@
     img {
         border: 2px solid black;
         box-shadow: 3px 3px 1px grey;
+        margin: 1em 0;
     }
 }
 
@@ -47,6 +48,19 @@
 
     ul li {
         @include list-item-styles;
+    }
+}
+
+.country-icon {
+    border: 3px dashed transparent;
+    border-radius: 100px;
+    margin: 0.2em;
+    padding: 0.1rem;
+    height: 70px;
+    width: 70px;
+
+    &:hover {
+        border-color: black;
     }
 }
 

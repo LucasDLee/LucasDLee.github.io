@@ -1,0 +1,30 @@
+.emulateH2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.countryLink,
+.countryLink:link,
+.countryLink:visited {
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.25rem 0;
+}
+
+.countryLink::after {
+    content: '';
+    display: block;
+    height: 0.1rem;
+    margin-top: 5px;
+    position: relative;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+    width: 0;
+}
+
+.countryLink:hover:after {
+    background: black;
+    font-weight: 700;
+    width: 100%;
+}

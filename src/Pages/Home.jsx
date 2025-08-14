@@ -1,4 +1,3 @@
-import React from 'react';
 import reportWebVitals from '../reportWebVitals';
 import Header from '../components/Header.js';
 import { NavigateSection } from '../components/NavigateSection';
@@ -22,6 +21,12 @@ const workExpNav = {
     link: "/workexp"
 }
 
+const photoAlbumNav = {
+	name: "Photo Album",
+	picture: "",
+    link: "/photoalbum"
+}
+
 export default function Home() {
     return (
         <div id="home">
@@ -29,6 +34,7 @@ export default function Home() {
             <NavigateSection {...aboutMeNav} />
             <NavigateSection {...projectsNav} />
             <NavigateSection {...workExpNav} />
+            <NavigateSection {...photoAlbumNav} />
         </div>
     )
 }
