@@ -578,6 +578,225 @@ export const countries = {
         ]
     },
     jm: { name: "Jamaica", cities: [] },
+    jp: {
+        name: "Japan",
+        cities: [
+            "Himeji",
+            "Hiroshima",
+            "Ikuchi Island",
+            "Kamakura",
+            "Kyoto",
+            "Matsuyama",
+            "Miyajima",
+            "Mount Fuji",
+            "Nara",
+            "Nikko",
+            "Onomichi",
+            "Osaka",
+            "Shimanami-Kaido",
+            "Tokyo"
+        ],
+        pictures: [
+            {
+                description: "Lawson Convenience Store with Mount Fuji",
+                fileName: "fuji_lawson",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Chureito Pagoda and Mount Fuji",
+                fileName: "fuji_pagoda",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Himeji Castle",
+                fileName: "himeji_castle",
+                height: 15,
+                width: 9
+            },
+            {
+                description: "Hiroshima Peace Memorial",
+                fileName: "hiroshima_peace_memorial",
+                height: 5,
+                width: 4
+            },
+            {
+                description: "Kotoku-in Great Buddha",
+                fileName: "kamakura_kotoku",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Tsurugaoka Hachimangu",
+                fileName: "kamakura_tsurugaoka",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Fushimi Inari Taisha",
+                fileName: "kyoto_fushimi_inari_taisha",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Higashi Hongan-ji",
+                fileName: "kyoto_higashi_honganji",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Honshu Landscape",
+                fileName: "kyoto_honshu",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Izumiyacho Street",
+                fileName: "kyoto_izumiyacho",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Nijo Castle",
+                fileName: "kyoto_nijo",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "To-ji Temple",
+                fileName: "kyoto_toji",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Yasaka Shrine",
+                fileName: "kyoto_yasaka",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Matsuyama Castle",
+                fileName: "matsuyama_castle",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dogo Onsen",
+                fileName: "matsuyama_onsen",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Daishoin Temple Pikachu",
+                fileName: "miyajima_daishoin_pikachu",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Daishoin Temple",
+                fileName: "miyajima_daishoin_temple",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nara Deer",
+                fileName: "nara_deer",
+                height: 15,
+                width: 8
+            },
+            {
+                description: "Kasuga Taisha",
+                fileName: "nara_kasugataisha",
+                height: 16,
+                width: 10
+            },
+            {
+                description: "Todai-ji",
+                fileName: "nara_todaiji",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Five-Story Pagoda",
+                fileName: "nikko_pagoda",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nikko Toshogu Shrine",
+                fileName: "nikko_toshogu",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Dotonbori",
+                fileName: "osaka_dotonbori",
+                height: 4,
+                width: 5
+            },
+            {
+                description: "Ebisu",
+                fileName: "osaka_ebisu",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Katsuo-ji Temple",
+                fileName: "osaka_katsuoji",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nintendo World",
+                fileName: "osaka_mario",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Taiyaki",
+                fileName: "osaka_taiyaki",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Shimanami Kaido",
+                fileName: "shimanami_kaido",
+                height: 10,
+                width: 16
+            },
+            {
+                description: "Akihabara",
+                fileName: "tokyo_akihabara",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Asakusa",
+                fileName: "tokyo_asakusa",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Gundam Statue",
+                fileName: "tokyo_gundam",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Ramen Noodles",
+                fileName: "tokyo_noodles",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Tokyo Skytree",
+                fileName: "tokyo_skytree",
+                height: 16,
+                width: 9
+            }
+        ]
+    },
     kr: {
         name: "Korea",
         cities: ["Busan", "Gyeongju-si", "Jeju Island", "Seoul"],
