@@ -5,6 +5,16 @@ import ProjectSection from "../components/ProjectSection"
 const projects = [
     {
         activeLink: true,
+        date: 'Sept - Dec 2025',
+        description: 'I had the opportunity to create an algorithm in a 4-person team that identifies and classifies recycling material in SFU\'s Introduction to Artificial Intelligence course. My team tested it on a variety of common household objects and were able to achieve an 83% validation accuracy.',
+        icon: 'python',
+        link: 'https://github.com/penguwuin/recycle-pals',
+        role: 'Python Developer',
+        techStack: ['Torchvision', 'NumPy', 'Kaggle', 'Convolution neural networks'],
+        title: 'Recycle Pals'
+    },
+    {
+        activeLink: true,
         date: 'Sept - Dec 2024',
         description: 'I had the chance to learn more about Android mobile development in SFU\'s Mobile Applications Programming and Design course. Our 4-person group built a cat-adoption app that allows people to have an easier time understanding how to adopt and care for a cat. It even comes with an AI chatbot!',
         icon: 'android',

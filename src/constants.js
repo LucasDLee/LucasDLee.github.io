@@ -737,7 +737,7 @@ export const countries = {
     mx: { name: "Mexico", cities: [] },
     nl: {
         name: "Netherlands",
-        cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Oosterbeek", "Rotterdam", "The Hague", "Zwolle"],
+        cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Oosterbeek", "Rotterdam", "The Hague", "Utrecht", "Zwolle"],
         pictures: [
             
             {
