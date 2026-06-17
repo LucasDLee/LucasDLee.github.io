@@ -578,6 +578,156 @@ export const countries = {
         ]
     },
     jm: { name: "Jamaica", cities: [] },
+    kr: {
+        name: "Korea",
+        cities: ["Busan", "Gyeongju-si", "Jeju Island", "Seoul"],
+        pictures: [
+            {
+                description: "Bibimbap",
+                fileName: "busan_bibimbap",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Gamcheon Culture Village",
+                fileName: "busan_gamcheon_culture_village",
+                height: 3.25,
+                width: 4
+            },
+            {
+                description: "Haedong Yonggungsa",
+                fileName: "busan_haedong",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Haeundae Beach",
+                fileName: "busan_haeundae_beach",
+                height: 3,
+                width: 4.15
+            },
+            {
+                description: "Market",
+                fileName: "busan_market",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Samgwangsa Temple",
+                fileName: "busan_samgwangsa",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Samgwangsa Temple",
+                fileName: "busan_samgwangsa_temple",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Seawall",
+                fileName: "busan_seawall",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Bridge",
+                fileName: "gyeongju_bridge",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Donggung Palace and Wolji Pond",
+                fileName: "gyeongju_donggung",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Gwaneumsa Temple",
+                fileName: "jeju_gwaneumsa",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Hallasan",
+                fileName: "jeju_hallasan",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Seongsan Ilchulbong",
+                fileName: "jeju_seongsan_ilchulbong",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dol Hareubang Statue",
+                fileName: "jeju_statue",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Buddha Statue",
+                fileName: "seoul_buddha",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Cheese",
+                fileName: "seoul_cheese",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "DMZ",
+                fileName: "seoul_dmz",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dumplings",
+                fileName: "seoul_dumplings",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Gyeongbokgung Palace",
+                fileName: "seoul_gyeongbokgung",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Imjingak",
+                fileName: "seoul_imjingak",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Starfield Library",
+                fileName: "seoul_library",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Market",
+                fileName: "seoul_market",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "1988 Olympic Mascot",
+                fileName: "seoul_olympics_mascot",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Turtle Ship",
+                fileName: "seoul_turtle_ship",
+                height: 9,
+                width: 16
+            }
+        ]
+    },
     lt: {
         name: "Lithuania",
         cities: ["Kaunas", "Vilnius"],
