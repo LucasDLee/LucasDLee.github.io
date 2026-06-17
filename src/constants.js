@@ -1203,6 +1203,126 @@ export const countries = {
             }
         ]
     },
+    tw: {
+        name: "Taiwan",
+        cities: ["Hualien", "Kaohsiung", "Taichung", "Tainan", "Taipei", "Taitung"],
+        pictures: [
+            {
+                description: "Capybara",
+                fileName: "hualien_capybara",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Ciumuting",
+                fileName: "hualien_ciumuting",
+                height: 4.1,
+                width: 3
+            },
+            {
+                description: "Coastline",
+                fileName: "hualien_coastline",
+                height: 3.1,
+                width: 4.25
+            },
+            {
+                description: "Shen'an Lanterns",
+                fileName: "hualien_shenan_lanterns",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Shen'an Temple",
+                fileName: "hualien_shenan_temple",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Taroko Gorge",
+                fileName: "hualien_taroko",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Taro Ice",
+                fileName: "kaohsiung_taro_ice",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Temple",
+                fileName: "kaohsiung_temple",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Bugcat Capoo",
+                fileName: "taichung_bugcat",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Night Market",
+                fileName: "taichung_night_market",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Chihkan Tower",
+                fileName: "tainan_chihkan",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Desert",
+                fileName: "tainan_desert",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Shennong Street",
+                fileName: "tainan_street",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Beitou",
+                fileName: "taipei_beitou",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Prawn Fishing",
+                fileName: "taipei_fishing",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Jiufen",
+                fileName: "taipei_jiufen",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "National Revolutionary Martyrs' Shrine",
+                fileName: "taipei_martyr",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Chiang Kak-shek Memorial Hall",
+                fileName: "taipei_memorial",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Dinner",
+                fileName: "taipei_prawns",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
     tr: {
         name: "Turkiye",
         cities: ["Istanbul"],
