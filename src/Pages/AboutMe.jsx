@@ -95,18 +95,18 @@ function Skills() {
 function Education() {
     const schools = [
         {
+            duration: 'May 2022 - June 2026',
+            logo: 'sfu',
+            name: 'Simon Fraser University',
+            study: 'Bachelor of Science - Major in Computer Science',
+            website: 'https://www.sfu.ca/'
+        },
+        {
             duration: 'Feb - July 2025',
             logo: 'vu-amsterdam',
             name: 'Vrije Universiteit Amsterdam',
             study: 'Exchange Semester',
             website: 'https://vu.nl/nl'
-        },
-        {
-            duration: 'Jun 2022 - Present',
-            logo: 'sfu',
-            name: 'Simon Fraser University',
-            study: 'Bachelor of Computer Science',
-            website: 'https://www.sfu.ca/'
         },
         {
             duration: 'Sept 2020 - May 2022',
