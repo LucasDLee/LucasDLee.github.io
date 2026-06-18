@@ -174,7 +174,7 @@ export const countries = {
             },
         ]
     },
-    "gb-eng": { name: "England", cities: ["London"] },
+    // "gb-eng": { name: "England", cities: ["London"] },
     ee: {
         name: "Estonia",
         cities: ["Tallinn"],
@@ -954,7 +954,7 @@ export const countries = {
             {
                 description: "Vilnius Town Hall",
                 fileName: "capital",
-                height: 3,
+                height: 3.1,
                 width: 4
             },
             {
@@ -1574,7 +1574,7 @@ export const countries = {
     },
     tw: {
         name: "Taiwan",
-        cities: ["Hualien", "Kaohsiung", "Taichung", "Tainan", "Taipei", "Taitung"],
+        cities: ["Hualien", "Jiufen", "Kaohsiung", "Taichung", "Tainan", "Taipei", "Taitung"],
         pictures: [
             {
                 description: "Capybara",
@@ -1643,7 +1643,7 @@ export const countries = {
                 width: 16
             },
             {
-                description: "Desert",
+                description: "Tapioco pearls and shaved ice",
                 fileName: "tainan_desert",
                 height: 4,
                 width: 3
@@ -1693,7 +1693,7 @@ export const countries = {
         ]
     },
     tr: {
-        name: "Turkiye",
+        name: "Türkiye",
         cities: ["Istanbul"],
         pictures: [
             {

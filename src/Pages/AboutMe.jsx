@@ -28,8 +28,9 @@ function WhoAmI() {
                 <img src="images/profile-pic2.webp" height="250" width="200" alt="me" />
                 <article className="about-description">
                     <p>Hello there! Nice to meet you. My name is Lucas Lee, a skilled developer with real-world experience. I started programming in high-school at the age of 16 where my first encounter with software development was making a calculator with Swift and Xcode.</p>
-                    <p>Eventually, I learned more and more until I started my first 2 years of post-secondary education at Langara College and currently am finishing the rest of it at Simon Fraser University for a bachelor of computer science.</p>
+                    <p>Eventually, I learned more and more until I completed a Bachelor of Science, majoring in computer science, at Simon Fraser University in June 2026.</p>
                     <p>I usually gravitate towards front-end applications but I am always keen to learn more and grow my skills in any field!</p>
+                    <p>Additionally, I love solo travelling and have met many great people and visited countless beautiful locations across the world. Feel free to check out my photo albums to see a snippet of my travels.</p>
                     <p>If you ever need to contact me, my socials can be found at the bottom of the page. Thank you for reading this!</p>    
                 </article>
                 
