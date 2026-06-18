@@ -174,7 +174,7 @@ export const countries = {
             },
         ]
     },
-    "gb-eng": { name: "England", cities: ["London"] },
+    // "gb-eng": { name: "England", cities: ["London"] },
     ee: {
         name: "Estonia",
         cities: ["Tallinn"],
@@ -578,6 +578,375 @@ export const countries = {
         ]
     },
     jm: { name: "Jamaica", cities: [] },
+    jp: {
+        name: "Japan",
+        cities: [
+            "Himeji",
+            "Hiroshima",
+            "Ikuchi Island",
+            "Kamakura",
+            "Kyoto",
+            "Matsuyama",
+            "Miyajima",
+            "Mount Fuji",
+            "Nara",
+            "Nikko",
+            "Onomichi",
+            "Osaka",
+            "Shimanami-Kaido",
+            "Tokyo"
+        ],
+        pictures: [
+            {
+                description: "Lawson Convenience Store with Mount Fuji",
+                fileName: "fuji_lawson",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Chureito Pagoda and Mount Fuji",
+                fileName: "fuji_pagoda",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Himeji Castle",
+                fileName: "himeji_castle",
+                height: 15,
+                width: 9
+            },
+            {
+                description: "Hiroshima Peace Memorial",
+                fileName: "hiroshima_peace_memorial",
+                height: 5,
+                width: 4
+            },
+            {
+                description: "Kotoku-in Great Buddha",
+                fileName: "kamakura_kotoku",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Tsurugaoka Hachimangu",
+                fileName: "kamakura_tsurugaoka",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Fushimi Inari Taisha",
+                fileName: "kyoto_fushimi_inari_taisha",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Higashi Hongan-ji",
+                fileName: "kyoto_higashi_honganji",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Honshu Landscape",
+                fileName: "kyoto_honshu",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Izumiyacho Street",
+                fileName: "kyoto_izumiyacho",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Nijo Castle",
+                fileName: "kyoto_nijo",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "To-ji Temple",
+                fileName: "kyoto_toji",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Yasaka Shrine",
+                fileName: "kyoto_yasaka",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Matsuyama Castle",
+                fileName: "matsuyama_castle",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dogo Onsen",
+                fileName: "matsuyama_onsen",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Daishoin Temple Pikachu",
+                fileName: "miyajima_daishoin_pikachu",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Daishoin Temple",
+                fileName: "miyajima_daishoin_temple",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nara Deer",
+                fileName: "nara_deer",
+                height: 15,
+                width: 8
+            },
+            {
+                description: "Kasuga Taisha",
+                fileName: "nara_kasugataisha",
+                height: 16,
+                width: 10
+            },
+            {
+                description: "Todai-ji",
+                fileName: "nara_todaiji",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Five-Story Pagoda",
+                fileName: "nikko_pagoda",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nikko Toshogu Shrine",
+                fileName: "nikko_toshogu",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Dotonbori",
+                fileName: "osaka_dotonbori",
+                height: 4,
+                width: 5
+            },
+            {
+                description: "Ebisu",
+                fileName: "osaka_ebisu",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Katsuo-ji Temple",
+                fileName: "osaka_katsuoji",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Nintendo World",
+                fileName: "osaka_mario",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Taiyaki",
+                fileName: "osaka_taiyaki",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Shimanami Kaido",
+                fileName: "shimanami_kaido",
+                height: 10,
+                width: 16
+            },
+            {
+                description: "Akihabara",
+                fileName: "tokyo_akihabara",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Asakusa",
+                fileName: "tokyo_asakusa",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Gundam Statue",
+                fileName: "tokyo_gundam",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Ramen Noodles",
+                fileName: "tokyo_noodles",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Tokyo Skytree",
+                fileName: "tokyo_skytree",
+                height: 16,
+                width: 9
+            }
+        ]
+    },
+    kr: {
+        name: "Korea",
+        cities: ["Busan", "Gyeongju-si", "Jeju Island", "Seoul"],
+        pictures: [
+            {
+                description: "Bibimbap",
+                fileName: "busan_bibimbap",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Gamcheon Culture Village",
+                fileName: "busan_gamcheon_culture_village",
+                height: 3.25,
+                width: 4
+            },
+            {
+                description: "Haedong Yonggungsa",
+                fileName: "busan_haedong",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Haeundae Beach",
+                fileName: "busan_haeundae_beach",
+                height: 3,
+                width: 4.15
+            },
+            {
+                description: "Market",
+                fileName: "busan_market",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Samgwangsa Temple",
+                fileName: "busan_samgwangsa",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Samgwangsa Temple",
+                fileName: "busan_samgwangsa_temple",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Seawall",
+                fileName: "busan_seawall",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Bridge",
+                fileName: "gyeongju_bridge",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Donggung Palace and Wolji Pond",
+                fileName: "gyeongju_donggung",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Gwaneumsa Temple",
+                fileName: "jeju_gwaneumsa",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Hallasan",
+                fileName: "jeju_hallasan",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Seongsan Ilchulbong",
+                fileName: "jeju_seongsan_ilchulbong",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dol Hareubang Statue",
+                fileName: "jeju_statue",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Buddha Statue",
+                fileName: "seoul_buddha",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Cheese",
+                fileName: "seoul_cheese",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "DMZ",
+                fileName: "seoul_dmz",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Dumplings",
+                fileName: "seoul_dumplings",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Gyeongbokgung Palace",
+                fileName: "seoul_gyeongbokgung",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Imjingak",
+                fileName: "seoul_imjingak",
+                height: 16,
+                width: 9
+            },
+            {
+                description: "Starfield Library",
+                fileName: "seoul_library",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Market",
+                fileName: "seoul_market",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "1988 Olympic Mascot",
+                fileName: "seoul_olympics_mascot",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Turtle Ship",
+                fileName: "seoul_turtle_ship",
+                height: 9,
+                width: 16
+            }
+        ]
+    },
     lt: {
         name: "Lithuania",
         cities: ["Kaunas", "Vilnius"],
@@ -585,7 +954,7 @@ export const countries = {
             {
                 description: "Vilnius Town Hall",
                 fileName: "capital",
-                height: 3,
+                height: 3.1,
                 width: 4
             },
             {
@@ -737,7 +1106,7 @@ export const countries = {
     mx: { name: "Mexico", cities: [] },
     nl: {
         name: "Netherlands",
-        cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Oosterbeek", "Rotterdam", "The Hague", "Zwolle"],
+        cities: ["Amsterdam", "Arnhem", "Delft", "Kampen", "Nijmegen", "Oosterbeek", "Rotterdam", "The Hague", "Utrecht", "Zwolle"],
         pictures: [
             
             {
@@ -1203,8 +1572,128 @@ export const countries = {
             }
         ]
     },
+    tw: {
+        name: "Taiwan",
+        cities: ["Hualien", "Jiufen", "Kaohsiung", "Taichung", "Tainan", "Taipei", "Taitung"],
+        pictures: [
+            {
+                description: "Capybara",
+                fileName: "hualien_capybara",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Ciumuting",
+                fileName: "hualien_ciumuting",
+                height: 4.1,
+                width: 3
+            },
+            {
+                description: "Coastline",
+                fileName: "hualien_coastline",
+                height: 3.1,
+                width: 4.25
+            },
+            {
+                description: "Shen'an Lanterns",
+                fileName: "hualien_shenan_lanterns",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Shen'an Temple",
+                fileName: "hualien_shenan_temple",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Taroko Gorge",
+                fileName: "hualien_taroko",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Taro Ice",
+                fileName: "kaohsiung_taro_ice",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Temple",
+                fileName: "kaohsiung_temple",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Bugcat Capoo",
+                fileName: "taichung_bugcat",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Night Market",
+                fileName: "taichung_night_market",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Chihkan Tower",
+                fileName: "tainan_chihkan",
+                height: 9,
+                width: 16
+            },
+            {
+                description: "Tapioco pearls and shaved ice",
+                fileName: "tainan_desert",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Shennong Street",
+                fileName: "tainan_street",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Beitou",
+                fileName: "taipei_beitou",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Prawn Fishing",
+                fileName: "taipei_fishing",
+                height: 3,
+                width: 4
+            },
+            {
+                description: "Jiufen",
+                fileName: "taipei_jiufen",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "National Revolutionary Martyrs' Shrine",
+                fileName: "taipei_martyr",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Chiang Kak-shek Memorial Hall",
+                fileName: "taipei_memorial",
+                height: 4,
+                width: 3
+            },
+            {
+                description: "Dinner",
+                fileName: "taipei_prawns",
+                height: 3,
+                width: 4
+            }
+        ]
+    },
     tr: {
-        name: "Turkiye",
+        name: "Türkiye",
         cities: ["Istanbul"],
         pictures: [
             {
