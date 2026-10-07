@@ -10,9 +10,27 @@ export const countries = {
         width: 3
       },
       {
+        description: "Austrian Parliament Info Center",
+        fileName: "austrian_parliament_info_center",
+        height: 3.1,
+        width: 4
+      },
+      {
+        description: "Cakes and pastries",
+        fileName: "cakes_and_pastries",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "cat",
         height: 4,
         width: 3
+      },
+      {
+        description: "Friends in Austria",
+        fileName: "friends_in_austria",
+        height: 3,
+        width: 4
       },
       {
         description: "Palmenhaus in Schönbrunn",
@@ -30,6 +48,18 @@ export const countries = {
         fileName: "mozart",
         height: 4,
         width: 3
+      },
+      {
+        description: "Old posters",
+        fileName: "museum",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Pastries",
+        fileName: "pastries",
+        height: 3,
+        width: 4
       },
       {
         description: "Karlskirche",
