@@ -1367,6 +1367,12 @@ export const countries = {
         width: 4.25
       },
       {
+        description: "Friends",
+        fileName: "friends_in_luxembourg",
+        height: 1,
+        width: 1
+      },
+      {
         description: "Parc Edith Klein",
         fileName: "garden",
         height: 3,
