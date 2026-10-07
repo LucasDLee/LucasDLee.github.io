@@ -806,6 +806,12 @@ export const countries = {
         width: 4
       },
       {
+        description: "Friends in Florence",
+        fileName: "florence_friends",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Castello Sforzesco",
         fileName: "fortress",
         height: 3,
@@ -823,6 +829,12 @@ export const countries = {
         width: 4
       },
       {
+        description: "Duomo di Milano",
+        fileName: "milano_duomo",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Monumento a Vittorio Emanuele II",
         fileName: "monumento",
         height: 3,
@@ -831,6 +843,18 @@ export const countries = {
       {
         description: "Basilica di San Pietro",
         fileName: "pietro",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Friend in Rome",
+        fileName: "rome_friend",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Friends in Rome",
+        fileName: "rome_friends",
         height: 3,
         width: 4
       },
@@ -862,6 +886,17 @@ export const countries = {
         fileName: "vatican",
         height: 3,
         width: 4
+      },
+      {
+        fileName: "vatican_luce",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Canal in Venice",
+        fileName: "venice_canal",
+        height: 4,
+        width: 3
       }
     ]
   },
