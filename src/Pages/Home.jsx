@@ -4,39 +4,39 @@ import { NavigateSection } from "../components/NavigateSection";
 import "./scss/index.scss";
 
 const aboutMeNav = {
-	name: "About Me",
-	picture: "",
-	link: "/about",
+  name: "About Me",
+  picture: "",
+  link: "/about"
 };
 
 const projectsNav = {
-	name: "My Projects",
-	picture: "",
-	link: "/projects",
+  name: "My Projects",
+  picture: "",
+  link: "/projects"
 };
 
 const workExpNav = {
-	name: "Work Experience",
-	picture: "",
-	link: "/workexp",
+  name: "Work Experience",
+  picture: "",
+  link: "/workexp"
 };
 
 const photoAlbumNav = {
-	name: "Photo Album",
-	picture: "",
-	link: "/photoalbum",
+  name: "Photo Album",
+  picture: "",
+  link: "/photoalbum"
 };
 
 export default function Home() {
-	return (
-		<div id="home">
-			<Header />
-			<NavigateSection {...aboutMeNav} />
-			<NavigateSection {...projectsNav} />
-			<NavigateSection {...workExpNav} />
-			<NavigateSection {...photoAlbumNav} />
-		</div>
-	);
+  return (
+    <div id="home">
+      <Header />
+      <NavigateSection {...aboutMeNav} />
+      <NavigateSection {...projectsNav} />
+      <NavigateSection {...workExpNav} />
+      <NavigateSection {...photoAlbumNav} />
+    </div>
+  );
 }
 
 // If you want to start measuring performance in your app, pass a function

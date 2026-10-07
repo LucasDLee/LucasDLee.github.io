@@ -8,18 +8,18 @@ import WorkExp from "./Pages/WorkExp";
 import PhotoAlbum from "./Pages/PhotoAlbum";
 
 function PageRouting() {
-	return (
-		<Router baseline="/">
-			<Routes>
-				<Route exact path="/" element={<Home />} />
-				<Route path="/about" element={<AboutMe />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/workexp" element={<WorkExp />} />
-				<Route path="/photoalbum" element={<PhotoAlbum />} />
-				<Route to="/" />
-			</Routes>
-		</Router>
-	);
+  return (
+    <Router baseline="/">
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/workexp" element={<WorkExp />} />
+        <Route path="/photoalbum" element={<PhotoAlbum />} />
+        <Route to="/" />
+      </Routes>
+    </Router>
+  );
 }
 
 export default PageRouting;

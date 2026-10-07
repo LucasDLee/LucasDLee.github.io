@@ -7,7 +7,7 @@ const WorkExperience = ({
   description,
   logo,
   title,
-  website,
+  website
 }) => {
   return (
     <section>

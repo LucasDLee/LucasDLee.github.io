@@ -25,7 +25,7 @@ function WhoAmI() {
     <section>
       <h2>Who Am I?</h2>
       <div className="about">
-        <img src="images/profile-pic2.webp" height="250" width="200" alt="me" />
+        <img src="images/profile-pic2.webp" height="300" width="225" alt="me" />
         <article className="about-description">
           <p>
             Hello there! Nice to meet you. My name is Lucas Lee, a skilled
@@ -39,7 +39,7 @@ function WhoAmI() {
             June 2026.
           </p>
           <p>
-            I usually gravitate towards front-end applications but I am always
+            I usually gravitate towards fullstack applications but I am always
             keen to learn more and grow my skills in any field!
           </p>
           <p>
@@ -69,16 +69,16 @@ function Skills() {
         "SAP UI5",
         "CSS",
         "SASS",
-        "HTML",
-      ],
+        "HTML"
+      ]
     },
     {
       title: "Backend",
-      skills: ["Python", "Java", "C", "SAP ABAP", "Supabase"],
+      skills: ["Python", "Java", "C", "SAP ABAP", "Supabase"]
     },
     {
       title: "Databases",
-      skills: ["Microsoft SQL Server", "PostgreSQL", "MongoDB"],
+      skills: ["Microsoft SQL Server", "PostgreSQL", "MongoDB"]
     },
     {
       title: "Concepts",
@@ -89,8 +89,8 @@ function Skills() {
         "Networking",
         "Functional Programming",
         "Object Oriented Programming",
-        "CI/CD",
-      ],
+        "CI/CD"
+      ]
     },
     {
       title: "Tools",
@@ -102,9 +102,9 @@ function Skills() {
         "npm",
         "Android Studio",
         "Xcode",
-        "Jira",
-      ],
-    },
+        "Jira"
+      ]
+    }
   ];
 
   return (
@@ -133,22 +133,22 @@ function Education() {
       logo: "sfu",
       name: "Simon Fraser University",
       study: "Bachelor of Science - Major in Computer Science",
-      website: "https://www.sfu.ca/",
+      website: "https://www.sfu.ca/"
     },
     {
       duration: "Feb - July 2025",
       logo: "vu-amsterdam",
       name: "Vrije Universiteit Amsterdam",
       study: "Exchange Semester",
-      website: "https://vu.nl/nl",
+      website: "https://vu.nl/nl"
     },
     {
       duration: "Sept 2020 - May 2022",
       logo: "langara",
       name: "Langara College",
       study: "Computer Science Program",
-      website: "https://langara.ca/",
-    },
+      website: "https://langara.ca/"
+    }
     // {
     //     duration: 'Sept 2016 - Jun 2020',
     //     logo: 'mcmath',
@@ -217,7 +217,7 @@ function Countries() {
               alt={country.name}
               title={country.name}
             />
-          ),
+          )
         )}
       </div>
     </section>
