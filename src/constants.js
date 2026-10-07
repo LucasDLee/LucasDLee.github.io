@@ -464,8 +464,20 @@ export const countries = {
   },
   de: {
     name: "Germany",
-    cities: ["Berlin", "Cologne", "Frankfurt", "Hamburg"],
+    cities: ["Berlin", "Cologne", "Frankfurt", "Hamburg", "Potsdam"],
     pictures: [
+      {
+        description: "Nicholas Quarter in Berlin",
+        fileName: "berlin_nicholas_quarter",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "RAW-Gelände in Berlin",
+        fileName: "berlin_raw_gelande",
+        height: 3.9,
+        width: 3
+      },
       {
         description: "Hamburg BUNKER",
         fileName: "bunker",
@@ -475,8 +487,20 @@ export const countries = {
       {
         description: "Cologne Cathedral",
         fileName: "cathedral",
-        height: 2.5,
-        width: 2
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Bridge in Cologne",
+        fileName: "cologne_bridge",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Severinsviertel in Cologne",
+        fileName: "cologne_severins_viertel",
+        height: 4,
+        width: 3
       },
       {
         fileName: "frankfurt",
@@ -486,13 +510,37 @@ export const countries = {
       {
         description: "East Side Gallery",
         fileName: "gallery",
-        height: 2,
-        width: 3
+        height: 3,
+        width: 4
       },
       {
         fileName: "hafencity",
         height: 4.5,
         width: 5
+      },
+      {
+        description: "Hamburg coastline",
+        fileName: "hamburg_coastline",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Hamburg diorama",
+        fileName: "hamburg_diaorama",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Hamburg Hauptbahnhof",
+        fileName: "hamburg_hauptbahnhof",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Russian U-boat in Hamburg",
+        fileName: "hamburg_russian_uboat",
+        height: 3,
+        width: 4
       },
       {
         description: "Denkmal für die Ermordeten Juden Europas",
@@ -513,9 +561,21 @@ export const countries = {
         width: 4
       },
       {
+        description: "Poutine",
+        fileName: "poutine",
+        height: 4,
+        width: 3
+      },
+      {
         fileName: "schnitzel",
         height: 3,
         width: 4
+      },
+      {
+        description: "Tacos",
+        fileName: "tacos",
+        height: 4,
+        width: 3
       },
       {
         description: "Berlin Wall Memorial",
