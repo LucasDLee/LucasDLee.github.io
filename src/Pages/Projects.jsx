@@ -21,6 +21,24 @@ const projects = [
   },
   {
     activeLink: true,
+    date: "Feb - May 2025",
+    description:
+      "While doing an exchange semster at Vrije Universiteit Amsterdam, my 4-person group built a Python dashboard that cleaned, transformed, and aggregated Fitbit datasets into simple, easy-to-read statistics.",
+    icon: "python",
+    link: "https://github.com/anapremovic/Fitbit",
+    role: "Analytics Engineer",
+    techStack: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Streamlit",
+      "Plotly"
+    ],
+    title: "Fitbit Data Analysis"
+  },
+  {
+    activeLink: true,
     date: "Sept - Dec 2024",
     description:
       "I had the chance to learn more about Android mobile development in SFU's Mobile Applications Programming and Design course. Our 4-person group built a cat-adoption app that allows people to have an easier time understanding how to adopt and care for a cat. It even comes with an AI chatbot!",
