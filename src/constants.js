@@ -671,6 +671,12 @@ export const countries = {
     cities: ["Budapest"],
     pictures: [
       {
+        description: "Ruin bar in Budapest",
+        fileName: "budapest_ruins_bar",
+        height: 3.9,
+        width: 3
+      },
+      {
         description: "Budavári palota",
         fileName: "castle",
         height: 4,
@@ -681,6 +687,24 @@ export const countries = {
         fileName: "church",
         height: 2.5,
         width: 2
+      },
+      {
+        description: "Döner kebab wrap",
+        fileName: "doner_kebab_wrap",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Friends in Budapest",
+        fileName: "friends_in_budapest",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Hungarian National Museum",
+        fileName: "hungarian_national_museum",
+        height: 4,
+        width: 3
       },
       {
         description: "Nagycasarnok",
@@ -696,8 +720,20 @@ export const countries = {
       },
       {
         fileName: "parliament",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Parliament at night",
+        fileName: "parliament_at_night",
         height: 4,
-        width: 5
+        width: 3
+      },
+      {
+        description: "Schnitzel",
+        fileName: "schnitzel",
+        height: 3,
+        width: 4
       },
       {
         description: "Shoes on the Danube Bank",
