@@ -96,19 +96,19 @@ export const countries = {
       {
         description: "Peace",
         fileName: "car",
-        height: 1,
-        width: 1
+        height: 4,
+        width: 3
       },
       {
         description: "Patriarchal Cathedral St. Alexander Nevsky",
         fileName: "church",
-        height: 2,
-        width: 2.5
+        height: 3,
+        width: 4
       },
       {
         fileName: "food",
-        height: 5,
-        width: 4
+        height: 4,
+        width: 3
       },
       {
         fileName: "hiking",
@@ -116,9 +116,20 @@ export const countries = {
         width: 3
       },
       {
+        fileName: "historic_battle",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Boyana Lake",
         fileName: "lake",
         height: 4,
+        width: 3
+      },
+      {
+        description: "Lavov Most",
+        fileName: "lavov_most",
+        height: 4.1,
         width: 3
       },
       {
@@ -128,9 +139,21 @@ export const countries = {
         width: 3
       },
       {
+        description: "National Museum of History",
+        fileName: "national_museum_of_history",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Protest against the arrest of the Mayor of Varna",
         fileName: "protest",
-        height: 2.25,
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Roman ruins in the subway",
+        fileName: "roman_ruins_in_subway",
+        height: 4,
         width: 3
       },
       {
@@ -147,6 +170,12 @@ export const countries = {
       {
         description: "Boyana Waterfall",
         fileName: "waterfall",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Women's Market",
+        fileName: "womens_market",
         height: 4,
         width: 3
       }
