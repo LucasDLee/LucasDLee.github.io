@@ -1287,10 +1287,26 @@ export const countries = {
         width: 4
       },
       {
-        description: "Katedros aikštė",
-        fileName: "cathedral",
+        fileName: "cat",
         height: 3,
         width: 4
+      },
+      {
+        description: "Katedros aikštė",
+        fileName: "cathedral",
+        height: 3.25,
+        width: 4
+      },
+      {
+        fileName: "food",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Man and dog",
+        fileName: "man_and_dog",
+        height: 4,
+        width: 3
       },
       {
         description: "Kauno Šv. arkangelo Mykolo (Įgulos) bažnyčia",
