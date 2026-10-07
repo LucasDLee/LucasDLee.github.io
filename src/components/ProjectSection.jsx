@@ -1,4 +1,4 @@
-import "../Pages/scss/projects.scss";
+import "../Pages/scss/index.scss";
 
 const ProjectSection = ({
   activeLink,

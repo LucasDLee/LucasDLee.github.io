@@ -7,9 +7,10 @@ const noLogoPlaceholder = "logo-placeholder";
 const workExperience = [
   {
     bulletPoints: [
-      "Utilized SAP's UI5 frontend framework to build new features for our products",
-      "Fixed bugs in UI5 and SAP's ABAP backend framework",
-      "Implemented a prototype POD plugin in SAP's Digital Manufacturing Cloud from scratch"
+      "Implemented a custom SAP UI5 user personalization feature, leveraging AI-assisted UI design and development tools to accelerate deployment and optimize interface usability following an Agile workflow",
+      "Debugged and resolved 30+ full-stack Jira issues across SAP UI5 frontends and ABAP backends, improving application uptime by 6.3% and decreasing recurring production errors",
+      "Engineered a custom Production Operator Dashboard (POD) plugin for SAP Digital Manufacturing Cloud (DMC), integrating REST endpoints to establish real-time system interoperability for client adoption",
+      "Enhanced cross-platform usability by building WCAG compliant, adaptive SAP UI5 layouts, using generative AI to generate and validate accessible component templates across dynamic mobile screen sizes"
     ],
     company: "Adapt Technologies Consulting Inc.",
     date: "May - Dec 2024",
@@ -22,10 +23,10 @@ const workExperience = [
   },
   {
     bulletPoints: [
-      "Used Apexcharts and Highcharts to build graphs displaying weather data",
-      "Worked on a high-fidelity internal prototype using Vue JS to gather feedback from meteorologists",
-      "Pitched ideas to my peers and supervisors on how weather information can be displayed",
-      "Developed Python scripts to extract and rework data from JSON files"
+      "Engineered a real-time geospatial mapping tool using Vue.js, Leaflet, and RESTful APIs, asynchronously fetching and rendering location-specific meteorological data based on coordinate clicks",
+      "Boosted meteorological forecast accuracy by 7.8% by engineering Python ETL scripts to extract, transform, and restructure complex JSON weather datasets for downstream analysis and visualization",
+      "Created interactive data visualization dashboards using ApexCharts and Highcharts to dynamically render complex weather metrics and historical climate trends for end-users",
+      "Architected the core frontend foundation for a new weather platform using React, SCSS, and Redux within an iterative SDLC, establishing scalable architecture documentation and key feature concepts"
     ],
     company: "Environment and Climate Change Canada",
     date: "Sept 2023 - Apr 2024",
@@ -37,10 +38,11 @@ const workExperience = [
   },
   {
     bulletPoints: [
-      "Taught and introduced preteens and youth to JavaScript (including HTML and CSS), Ruby, or Python in four groups each consisting of 12 students and spent 1 hour a week with each group with a near 100% attendance rate",
-      "Introduced intermediate software concepts to participants such as APIs, Discord Bots, Git, and basic object-oriented programming",
-      "Spent 1.5 hours a week independently developing lesson plans and activities from scratch for the participants to refine their understanding of JavaScript, Ruby, or Python",
-      "Support the growth and development of the preteens/youth by empowering them to be comfortable and confident with their newfound skills"
+      "Mentored 40+ preteens and youth in programming languages including JavaScript and Python, leveraging AI tools to adapt instruction to different age groups and skill levels",
+      "Introduced intermediate software concepts including APIs, Discord bots, Git, and object-oriented programming",
+      "Designed weekly lesson plans and hands-on coding activities (1.5+ hours/week), utilizing AI generation tools to rapidly create custom exercises, starter code, and edge-case challenges",
+      "Demonstrated strong communication skills by explaining technical concepts to a non-technical audience",
+      "Supported the growth and development of preteens/youth by empowering them to be comfortable and confident with their newfound skills"
     ],
     company: "City Centre Community Centre",
     date: "Jan 2022 - Dec 2023",

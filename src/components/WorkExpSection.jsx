@@ -1,4 +1,4 @@
-import "../Pages/scss/work-exp.scss";
+import "../Pages/scss/index.scss";
 
 const WorkExperience = ({
   bulletPoints,
@@ -10,7 +10,7 @@ const WorkExperience = ({
   website
 }) => {
   return (
-    <section>
+    <section className="work-exp">
       <div className="experience">
         <a
           href={website}
