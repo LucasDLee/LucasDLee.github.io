@@ -1620,7 +1620,25 @@ export const countries = {
         width: 4
       },
       {
+        description: "Flags in Bern",
+        fileName: "bern_flags",
+        height: 3.1,
+        width: 4
+      },
+      {
+        description: "Friends in Switzerland",
+        fileName: "friends_in_switzerland",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "garden",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Gerechtigkeitsbrunnen",
+        fileName: "gerechtigkeitsbrunnen",
         height: 4,
         width: 3
       },
@@ -1632,6 +1650,12 @@ export const countries = {
       {
         fileName: "interlaken",
         height: 2.5,
+        width: 3
+      },
+      {
+        description: "Pastry",
+        fileName: "pastry",
+        height: 4,
         width: 3
       },
       {
