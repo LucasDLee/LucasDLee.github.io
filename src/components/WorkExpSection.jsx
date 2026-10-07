@@ -1,11 +1,35 @@
-import React from 'react';
-import "../Pages/scss/work-exp.scss"
+import React from "react";
+import "../Pages/scss/work-exp.scss";
 
-const WorkExperience = ({ bulletPoints, company, date, description, logo, title, website }) => {
+const WorkExperience = ({
+	bulletPoints,
+	company,
+	date,
+	description,
+	logo,
+	title,
+	website,
+}) => {
 	return (
 		<section>
 			<div className="experience">
-				<a href={website} target="_blank" rel="noreferrer" title={website === undefined ? 'There are no external resources from this organization.' : 'Learn more information about the organization here!'}><img src={`images/company-logos/${logo}.png`} alt={company} height={75} width={75} /></a>
+				<a
+					href={website}
+					target="_blank"
+					rel="noreferrer"
+					title={
+						website === undefined
+							? "There are no external resources from this organization."
+							: "Learn more information about the organization here!"
+					}
+				>
+					<img
+						src={`images/company-logos/${logo}.png`}
+						alt={company}
+						height={75}
+						width={75}
+					/>
+				</a>
 				<div className="experience-description">
 					<div>
 						<h3>{title}</h3>
@@ -18,13 +42,13 @@ const WorkExperience = ({ bulletPoints, company, date, description, logo, title,
 			<p>{description}</p>
 			{bulletPoints && (
 				<ul>
-				{bulletPoints.map((point, index) => (
-					<li key={index}>{point}</li>
-				))}
+					{bulletPoints.map((point, index) => (
+						<li key={index}>{point}</li>
+					))}
 				</ul>
 			)}
 		</section>
 	);
 };
 
-export default WorkExperience
+export default WorkExperience;

@@ -1,44 +1,43 @@
-import reportWebVitals from '../reportWebVitals';
-import Header from '../components/Header.js';
-import { NavigateSection } from '../components/NavigateSection';
-import "./scss/index.scss"
+import reportWebVitals from "../reportWebVitals";
+import Header from "../components/Header.js";
+import { NavigateSection } from "../components/NavigateSection";
+import "./scss/index.scss";
 
 const aboutMeNav = {
 	name: "About Me",
 	picture: "",
-    link: "/about"
-}
+	link: "/about",
+};
 
 const projectsNav = {
 	name: "My Projects",
 	picture: "",
-    link: "/projects"
-}
+	link: "/projects",
+};
 
 const workExpNav = {
 	name: "Work Experience",
 	picture: "",
-    link: "/workexp"
-}
+	link: "/workexp",
+};
 
 const photoAlbumNav = {
 	name: "Photo Album",
 	picture: "",
-    link: "/photoalbum"
-}
+	link: "/photoalbum",
+};
 
 export default function Home() {
-    return (
-        <div id="home">
-            <Header />
-            <NavigateSection {...aboutMeNav} />
-            <NavigateSection {...projectsNav} />
-            <NavigateSection {...workExpNav} />
-            <NavigateSection {...photoAlbumNav} />
-        </div>
-    )
+	return (
+		<div id="home">
+			<Header />
+			<NavigateSection {...aboutMeNav} />
+			<NavigateSection {...projectsNav} />
+			<NavigateSection {...workExpNav} />
+			<NavigateSection {...photoAlbumNav} />
+		</div>
+	);
 }
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -1,10 +1,10 @@
-import Footer from "../components/Footer"
-import NavBar from "../components/NavBar"
-import PhotoSection from "../components/PhotoSection"
-import { countries } from "../constants"
-import { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import "./scss/photo-album.scss"
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import PhotoSection from "../components/PhotoSection";
+import { countries } from "../constants";
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import "./scss/photo-album.scss";
 
 export default function PhotoAlbum() {
 	const location = useLocation();
@@ -30,8 +30,9 @@ export default function PhotoAlbum() {
 				const el = document.getElementById(id);
 				if (el) {
 					const yOffset = -100; // Adjust to match header height
-					const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
-					window.scrollTo({ top: y, behavior: 'smooth' });
+					const y =
+						el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+					window.scrollTo({ top: y, behavior: "smooth" });
 				}
 			}, 0);
 		}
@@ -48,11 +49,11 @@ export default function PhotoAlbum() {
 				>
 					{country.name}
 				</Link>
-			<span className="emulateH2">
-			{i < arr.length - 1 && <span> · </span>}</span>
+				<span className="emulateH2">
+					{i < arr.length - 1 && <span> · </span>}
+				</span>
 			</span>
-		)
-	);
+		));
 
 	return (
 		<div>
@@ -68,5 +69,5 @@ export default function PhotoAlbum() {
 			</main>
 			<Footer />
 		</div>
-	)
+	);
 }
