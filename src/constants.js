@@ -209,6 +209,12 @@ export const countries = {
         width: 3
       },
       {
+        description: "Dinner",
+        fileName: "food",
+        height: 4.2,
+        width: 3
+      },
+      {
         description: "Franz Kafka - Rotating Head by David Cerny",
         fileName: "head",
         height: 4.5,
@@ -221,14 +227,57 @@ export const countries = {
         width: 3
       },
       {
+        description: "Nové Město",
+        fileName: "nove_mesto",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Observatory",
         fileName: "observatory",
         height: 4,
         width: 3
       },
       {
-        fileName: "viewpoint",
+        description: "Old music posters",
+        fileName: "old_music_posters",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Prague alleyway",
+        fileName: "prague_alleyway",
         height: 4,
         width: 3
+      },
+      {
+        description: "Prague communist memorial",
+        fileName: "prague_communist_memorial",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Prague waterfront",
+        fileName: "prague_waterfront",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Saint Peter and Paul Basilica cemetery",
+        fileName: "saint_peter_and_paul_basilica_cemetery",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Schnitzel",
+        fileName: "schnitzel",
+        height: 4,
+        width: 3
+      },
+      {
+        fileName: "viewpoint",
+        height: 3,
+        width: 4
       },
       {
         fileName: "vysehrad",
@@ -240,6 +289,12 @@ export const countries = {
         fileName: "wall",
         height: 4,
         width: 5
+      },
+      {
+        description: "WW2 poster",
+        fileName: "ww2_poster",
+        height: 3,
+        width: 4
       }
     ]
   },

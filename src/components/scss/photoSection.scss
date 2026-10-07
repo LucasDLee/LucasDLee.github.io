@@ -1,5 +1,13 @@
 .photos {
   width: 95vw;
+  
+  @media screen and (min-width: 700px) {  
+    width: 85vw;
+  }
+
+  @media screen and (min-width: 1200px) {  
+    width: 75vw;
+  }
 }
 
 .photos-separator {
@@ -17,8 +25,4 @@
   }
 }
 
-@media screen and (min-width: 700px) {
-  .photos {
-    width: 75vw;
-  }
-}
+
