@@ -590,6 +590,18 @@ export const countries = {
     cities: ["Athens"],
     pictures: [
       {
+        description: "Cats",
+        fileName: "cats",
+        height: 1,
+        width: 1
+      },
+      {
+        description: "Friends in Greece",
+        fileName: "friends_in_greece",
+        height: 3,
+        width: 4
+      },
+      {
         description: "National Garden",
         fileName: "garden",
         height: 4,
@@ -602,6 +614,12 @@ export const countries = {
         width: 2
       },
       {
+        description: "Gyro wrap",
+        fileName: "gyro_wrap",
+        height: 4,
+        width: 3
+      },
+      {
         description: "Hadrian's Library",
         fileName: "hadrian",
         height: 3,
@@ -612,6 +630,12 @@ export const countries = {
         fileName: "lycabettus",
         height: 4,
         width: 3
+      },
+      {
+        description: "National Archaeological Museum",
+        fileName: "national_archaeological_museum",
+        height: 3,
+        width: 4
       },
       {
         fileName: "parthenon",
@@ -633,6 +657,11 @@ export const countries = {
         fileName: "sunset",
         height: 4,
         width: 3
+      },
+      {
+        fileName: "viewpoint",
+        height: 3,
+        width: 4
       }
     ]
   },
