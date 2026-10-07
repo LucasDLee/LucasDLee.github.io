@@ -17,7 +17,7 @@ const workExperience = [
     description:
       "Gaining hands on experience building and upgrading pharmacare ERP systems, I worked with both the frontend and backend technical components using SAP software. Here, I had a variety of duties including but not limited to:",
     logo: "adapt_technologies_consulting_inc_logo",
-    title: "SAP Intern Developer",
+    title: "SAP Developer",
     website:
       "https://www.linkedin.com/company/adapt-technologies-consulting-inc/"
   },
@@ -33,7 +33,7 @@ const workExperience = [
     description:
       "Working with ECCC as a co-op student, I am part of their Weather Transformation project which aims to modernize the way they distribute weather data to the public. Here, I had a variety of duties including but not limited to:",
     logo: "environment_canada_logo",
-    title: "Junior Software Developer (Co-op)",
+    title: "Software Developer (Co-op)",
     website: "https://www.linkedin.com/company/environment-canada"
   },
   {

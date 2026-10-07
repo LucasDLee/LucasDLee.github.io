@@ -11,7 +11,7 @@
 @mixin list-item-styles {
   border-radius: 5px;
   background-color: #ade3fc;
-  text-align: center;
+  // text-align: center;
   padding: 0.5em;
 }
 
@@ -24,8 +24,8 @@
 }
 
 #skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 1em;
 
   h3 {
@@ -38,6 +38,11 @@
 
   ul li {
     @include list-item-styles;
+  }
+
+  @media screen and (min-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -64,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .about {
     column-gap: 2em;
     display: flex;
