@@ -432,6 +432,17 @@ export const countries = {
         width: 4
       },
       {
+        fileName: "food",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Friends in Strasbourg",
+        fileName: "friends_in_strasbourg",
+        height: 4,
+        width: 3
+      },
+      {
         description: "Palais du Rhin",
         fileName: "palace",
         height: 3,
@@ -440,6 +451,12 @@ export const countries = {
       {
         description: "The EU Parliament in Strasbourg",
         fileName: "parliament",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Place des Tripiers",
+        fileName: "place_des_tripiers",
         height: 3,
         width: 4
       }
