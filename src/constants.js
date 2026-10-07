@@ -304,6 +304,12 @@ export const countries = {
     cities: ["Tallinn"],
     pictures: [
       {
+        description: "Alleyway",
+        fileName: "alleyway",
+        height: 4,
+        width: 3
+      },
+      {
         description: "Alexander Nevsky Cathedral",
         fileName: "church",
         height: 1,
@@ -314,6 +320,12 @@ export const countries = {
         fileName: "embassy",
         height: 4,
         width: 3
+      },
+      {
+        description: "Friends in Estonia",
+        fileName: "friends_in_estonia",
+        height: 3,
+        width: 4
       },
       {
         description: "Viru Varavad",
@@ -336,6 +348,11 @@ export const countries = {
         fileName: "statue",
         height: 4,
         width: 3
+      },
+      {
+        fileName: "truck",
+        height: 3,
+        width: 4
       },
       {
         fileName: "viewpoint",
