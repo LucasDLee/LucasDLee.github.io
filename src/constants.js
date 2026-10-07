@@ -1209,6 +1209,12 @@ export const countries = {
         width: 3
       },
       {
+        description: "Friend in Korea",
+        fileName: "friend_in_korea",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Buddha Statue",
         fileName: "seoul_buddha",
         height: 4,
