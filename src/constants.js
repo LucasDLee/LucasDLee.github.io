@@ -368,14 +368,19 @@ export const countries = {
       {
         description: "Uspenskin Katedraali",
         fileName: "church",
-        height: 1,
-        width: 1
+        height: 4,
+        width: 3
       },
       {
         description: "Kauppatori",
         fileName: "harbour",
         height: 1,
         width: 1
+      },
+      {
+        fileName: "friends_in_finland",
+        height: 4,
+        width: 3
       },
       {
         description: "Helsingin Keskustakirjasto Oodi",
@@ -390,8 +395,8 @@ export const countries = {
       },
       {
         fileName: "port",
-        height: 3.5,
-        width: 3
+        height: 3,
+        width: 4
       },
       {
         fileName: "suomenlinna",
