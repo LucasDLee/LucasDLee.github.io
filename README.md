@@ -8,6 +8,6 @@ Visit [https://lucasdlee.github.io/](https://lucasdlee.github.io/) to view the w
 
 ## Attributions
 
-- **[Simple Icons](https://simpleicons.org/)**: Icons found in the *Projects* section
+- **[Simple Icons](https://simpleicons.org/)**: Icons found in the _Projects_ section
 - **[Country Icons](https://github.com/HatScripts/circle-flags)**: Flags for countries/territories I've been to
 - **[React Photo Album](https://www.npmjs.com/package/react-photo-album)**: Library for adding the photo gallery

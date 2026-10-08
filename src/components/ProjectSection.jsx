@@ -1,19 +1,45 @@
-import "../Pages/scss/projects.scss"
+import "../Pages/scss/index.scss";
 
-const ProjectSection = ({ activeLink, bulletPoints, date, description, icon, link, role, techStack, title }) => {
+const ProjectSection = ({
+  activeLink,
+  bulletPoints,
+  date,
+  description,
+  icon,
+  link,
+  role,
+  techStack,
+  title
+}) => {
   return (
     <section className="project">
       <div className="experience">
-				<a href={link} target="_blank" rel="noreferrer" title={activeLink ? 'Check out the project!' : 'This resource is deactivated at the moment.'} ><img src={`images/language-icons/${icon}.png`} alt={role} height={75} width={75} /></a>
-				<div className="experience-description">
-					<div>
-						<h3>{title}</h3>
-						<h4>{role}</h4>
-					</div>
-					<div className="experience-separator" />
-					<p className="experience-duration">{date}</p>
-				</div>
-			</div>
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          title={
+            activeLink
+              ? "Check out the project!"
+              : "This resource is deactivated at the moment."
+          }
+        >
+          <img
+            src={`images/language-icons/${icon}.png`}
+            alt={role}
+            height={75}
+            width={75}
+          />
+        </a>
+        <div className="experience-description">
+          <div>
+            <h3>{title}</h3>
+            <h4>{role}</h4>
+          </div>
+          <div className="experience-separator" />
+          <p className="experience-duration">{date}</p>
+        </div>
+      </div>
       <p>{description}</p>
       {bulletPoints && (
         <ul>

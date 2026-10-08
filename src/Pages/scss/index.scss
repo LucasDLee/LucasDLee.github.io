@@ -1,146 +1,207 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+
+// ==========================================================================
+// Base elements
+// ==========================================================================
 
 html {
-    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    scroll-behavior: smooth;
-}
-
-h3, h4, h5, h6 {
-    font-family: 'Lato';
-}
-
-h4 {
-    font-size: 17px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    
-    &:hover {
-        color: #cfcbf7;
-    }
+  font-family:
+    "Montserrat", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
-
-.experience {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    padding: 0.5em 0;
-
-    h3, h4 {
-        margin: 0;
-    }
-
-    img {
-        border: 3px dashed transparent;
-        border-radius: 100px;
-
-        &:hover {
-            border-color: black;
-        }
-    }
-
-    p {
-        display: flex;
-        align-items: center;
-        margin: 0.25rem 0;
-    }
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
 }
 
-.experience-separator {
-    border-top: 3px none black;
+h4 {
+  font-size: 17px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    color: #cfcbf7;
+  }
 }
 
 figure {
-    margin: 0;
-}
-
-#home {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2em 0;
-    
-    h1 {
-        margin: 0;
-        padding: 0.25em;
-    }
-    
-    > section {
-        border: 1px solid grey;
-        border-radius: 25px;
-        box-shadow: 10px 10px 1px grey;
-        display: flex;
-        flex-direction: column;
-        margin: 1em 0;
-        padding: 1em;
-        width: 75vw;
-    }
-}
-
-table {
-    background-color: black;
-    text-align: left;
-}
-
-th, tr, td {
-    background-color: white;
-    border: 1px solid black;
-    padding: 1em;
-    z-index: 1;
+  margin: 0;
 }
 
 ul {
+  margin: 0.25em 0;
+}
+
+table {
+  background-color: black;
+  text-align: left;
+}
+
+th,
+tr,
+td {
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em;
+  z-index: 1;
+}
+
+// ==========================================================================
+// Page layout
+// ==========================================================================
+
+#home {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 0;
+
+  h1 {
+    margin: 0;
+    padding: 0.25em;
+  }
+
+  > section {
+    border: 1px solid grey;
+    border-radius: 25px;
+    box-shadow: 10px 10px 1px grey;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    padding: 1em;
+    width: 75vw;
+
+    @media screen and (min-width: 700px) {
+      width: 50vw;
+    }
+  }
+}
+
+// ==========================================================================
+// Components
+// ==========================================================================
+
+// --- Experience -----------------------------------------------------------
+
+.experience {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  padding: 0.5em 0;
+
+  h3,
+  h4 {
+    margin: 0;
+  }
+
+  img {
+    border: 3px dashed transparent;
+    border-radius: 100px;
+
+    &:hover {
+      border-color: black;
+    }
+  }
+
+  p {
+    align-items: center;
+    display: flex;
+    margin: 0.25rem 0;
+  }
+
+  @media screen and (min-width: 500px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    > div:first {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.experience-description {
+  @media screen and (min-width: 500px) {
+    align-items: center;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: auto 1fr auto;
+    padding: 0.5em 0;
+  }
+}
+
+.experience-duration {
+  @media screen and (min-width: 500px) {
+    text-align: right;
+  }
+}
+
+.experience-separator {
+  border-top: 3px none black;
+
+  @media screen and (min-width: 500px) {
+    border-top-style: dotted;
+  }
+}
+
+// --- Projects and work experience -----------------------------------------
+
+.project,
+.work-exp {
+  a {
+    color: #74b7d6;
+    font-weight: bold;
+    margin: 0.5em 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h3,
+  h4,
+  p {
     margin: 0.25em 0;
+  }
+
+  ul li {
+    margin: 0.3rem 0;
+  }
 }
 
-@media screen and (min-width: 500px) {
-    .experience {
-        display: grid;
-        grid-template-columns: auto 1fr;
-
-        
-        > div:first {
-            align-self: center;
-            display: flex;
-            flex-direction: column;
-        }
+.project {
+  header {
+    @media screen and (min-width: 1200px) {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
     }
-
-    .experience-description {
-        align-items: center;
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        gap: 0.5em;
-        padding: 0.5em 0;
-    }
-
-    .experience-duration {
-        text-align: right;
-    }
-
-    .experience-separator {
-        border-top-style: dotted;
-    }
+  }
 }
 
-@media screen and (min-width: 700px) {
-    main {
-        > section {
-            width: 50vw;
-        }
-    }
+.work-header {
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
 }
