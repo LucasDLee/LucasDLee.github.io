@@ -2141,6 +2141,18 @@ export const countries = {
     ],
     pictures: [
       {
+        description: "Friends in Taiwan",
+        fileName: "friends_in_taiwan",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Friends in Taiwan",
+        fileName: "friends_in_taiwan_2",
+        height: 3,
+        width: 4.1
+      },
+      {
         description: "Capybara",
         fileName: "hualien_capybara",
         height: 4,
