@@ -1488,6 +1488,30 @@ export const countries = {
     ],
     pictures: [
       {
+        description: "Floormate friends in Amsterdam",
+        fileName: "amsterdam_floormate_friends",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Floormate friends in Amsterdam",
+        fileName: "amsterdam_floormate_friends_2",
+        height: 3,
+        width: 4.1
+      },
+      {
+        description: "Floormate friends in Amsterdam",
+        fileName: "amsterdam_floormate_friends_3",
+        height: 3,
+        width: 4.2
+      },
+      {
+        description: "Arcade games",
+        fileName: "arcade_games",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "arnhem",
         height: 1,
         width: 1
@@ -1504,7 +1528,17 @@ export const countries = {
         width: 4
       },
       {
+        fileName: "boats",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "canal",
+        height: 3,
+        width: 4
+      },
+      {
+        fileName: "cat",
         height: 3,
         width: 4
       },
@@ -1513,6 +1547,12 @@ export const countries = {
         fileName: "ceramics",
         height: 4,
         width: 3
+      },
+      {
+        description: "Curry frites",
+        fileName: "curry_frites",
+        height: 3,
+        width: 4
       },
       {
         fileName: "delft",
@@ -1525,6 +1565,18 @@ export const countries = {
         width: 3
       },
       {
+        description: "Friends in Amsterdam",
+        fileName: "friends_in_amsterdam",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Frites with shredded cheese",
+        fileName: "frites_with_shredded_cheese",
+        height: 4,
+        width: 3
+      },
+      {
         fileName: "games",
         height: 3,
         width: 4
@@ -1533,6 +1585,12 @@ export const countries = {
         fileName: "haarlem",
         height: 4,
         width: 3
+      },
+      {
+        description: "Indonesian food",
+        fileName: "indonesian_food",
+        height: 3,
+        width: 4
       },
       {
         fileName: "kampen",
@@ -1555,6 +1613,12 @@ export const countries = {
         width: 3
       },
       {
+        description: "More friends in Amsterdam",
+        fileName: "more_friends_in_amsterdam",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "nijmegen",
         height: 3,
         width: 4
@@ -1575,6 +1639,12 @@ export const countries = {
         width: 4
       },
       {
+        description: "Rock climbing",
+        fileName: "rock_climbing",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "rotterdam",
         height: 3,
         width: 4
@@ -1582,6 +1652,12 @@ export const countries = {
       {
         description: "Het Scheepvaartmuseum",
         fileName: "ship",
+        height: 3,
+        width: 4
+      },
+      {
+        description: "Soup and fried banana",
+        fileName: "soup_and_fried_banana",
         height: 3,
         width: 4
       },
