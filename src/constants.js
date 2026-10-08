@@ -2300,6 +2300,18 @@ export const countries = {
         width: 3
       },
       {
+        description: "Cool cat",
+        fileName: "cool_cat",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Close friend in Istanbul",
+        fileName: "friend_in_istanbul",
+        height: 4,
+        width: 3
+      },
+      {
         fileName: "istanbul",
         height: 3,
         width: 4
