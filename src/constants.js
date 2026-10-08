@@ -1882,6 +1882,12 @@ export const countries = {
     cities: ["Bratislava"],
     pictures: [
       {
+        description: "Beef and dumplings",
+        fileName: "beef_and_dumplings",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Farský kostol sv. Alžbety (Modrý kostolík)",
         fileName: "church",
         height: 3.5,
@@ -1894,10 +1900,22 @@ export const countries = {
         width: 3
       },
       {
+        description: "Macaroni",
+        fileName: "macaroni",
+        height: 4,
+        width: 3
+      },
+      {
         description: "Čumil",
         fileName: "man",
         height: 3.75,
         width: 3
+      },
+      {
+        description: "Pierogis",
+        fileName: "pierogis",
+        height: 3,
+        width: 4
       },
       {
         description: "Presidential Palace",
