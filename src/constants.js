@@ -1425,8 +1425,19 @@ export const countries = {
         width: 3
       },
       {
+        description: "Badges and pins",
+        fileName: "badges_and_pins",
+        height: 3.1,
+        width: 4
+      },
+      {
         description: "Melngalvju nams",
         fileName: "blackhead",
+        height: 3,
+        width: 4
+      },
+      {
+        fileName: "food",
         height: 3,
         width: 4
       },
@@ -1451,6 +1462,12 @@ export const countries = {
         fileName: "snail",
         height: 3,
         width: 4
+      },
+      {
+        description: "Divi Raiņi",
+        fileName: "statue",
+        height: 4,
+        width: 3
       }
     ]
   },
