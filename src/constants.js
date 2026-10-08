@@ -888,6 +888,7 @@ export const countries = {
         width: 4
       },
       {
+        description: "Luce",
         fileName: "vatican_luce",
         height: 4,
         width: 3
@@ -2306,7 +2307,7 @@ export const countries = {
         width: 3
       },
       {
-        description: "Close friend in Istanbul",
+        description: "Friend in Istanbul",
         fileName: "friend_in_istanbul",
         height: 4,
         width: 3

@@ -54,12 +54,12 @@ nav {
     > ul {
       display: flex;
       flex-direction: row;
-      justify-content: initial;
+      // justify-content: initial;
       max-width: 60%;
     }
 
     > ul li {
-      padding: 0 1.5em 0 0;
+      padding: 0 0.75em;
     }
   }
 }
