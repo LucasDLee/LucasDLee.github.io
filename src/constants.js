@@ -1986,10 +1986,22 @@ export const countries = {
         width: 4
       },
       {
+        description: "Drinks and tapas",
+        fileName: "drinks_and_tapas",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Castell de Montjuïc",
         fileName: "fort",
         height: 4,
         width: 3
+      },
+      {
+        description: "Friends in Madrid",
+        fileName: "friends_in_madrid",
+        height: 3,
+        width: 4
       },
       {
         description: "Plaça de les Cascades",
@@ -2010,6 +2022,12 @@ export const countries = {
         width: 4
       },
       {
+        description: "Quesadillas",
+        fileName: "quesadillas",
+        height: 3,
+        width: 4
+      },
+      {
         description: "Basílica de la Sagrada Família",
         fileName: "sagrada",
         height: 3.75,
@@ -2021,6 +2039,12 @@ export const countries = {
         width: 3
       },
       {
+        description: "Tacos",
+        fileName: "tacos",
+        height: 3,
+        width: 4
+      },
+      {
         fileName: "tapas",
         height: 3,
         width: 4
@@ -2030,6 +2054,12 @@ export const countries = {
         fileName: "villa",
         height: 3,
         width: 4
+      },
+      {
+        description: "Wine making",
+        fileName: "wine_making",
+        height: 4,
+        width: 3
       }
     ]
   },
