@@ -25,8 +25,8 @@ const PhotoSection = ({ code }) => {
 
   let columnCount = 3;
 
-  if (size.width < 400) columnCount = 1;
-  else if (size.width < 650) columnCount = 2;
+  if (size.width < 600) columnCount = 1;
+  else if (size.width < 800) columnCount = 2;
   else columnCount = 3;
 
   // Generate images
