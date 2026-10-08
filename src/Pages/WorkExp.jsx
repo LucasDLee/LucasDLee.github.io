@@ -15,7 +15,7 @@ const workExperience = [
     company: "Adapt Technologies Consulting Inc.",
     date: "May - Dec 2024",
     description:
-      "Gaining hands on experience building and upgrading pharmacare ERP systems, I worked with both the frontend and backend technical components using SAP software. Here, I had a variety of duties including but not limited to:",
+      "Gained hands on experience building and upgrading pharmacare ERP systems, I worked with both the frontend and backend technical components using SAP software. Here, I had a variety of duties including but not limited to:",
     logo: "adapt_technologies_consulting_inc_logo",
     title: "SAP Developer",
     website:
@@ -31,7 +31,7 @@ const workExperience = [
     company: "Environment and Climate Change Canada",
     date: "Sept 2023 - Apr 2024",
     description:
-      "Working with ECCC as a co-op student, I am part of their Weather Transformation project which aims to modernize the way they distribute weather data to the public. Here, I had a variety of duties including but not limited to:",
+      "Working with ECCC as a co-op student, I was part of their Weather Transformation project which aimed to modernize the way the Government of Canada distributes weather data to the public. Here, I had a variety of duties including but not limited to:",
     logo: "environment_canada_logo",
     title: "Software Developer (Co-op)",
     website: "https://www.linkedin.com/company/environment-canada"

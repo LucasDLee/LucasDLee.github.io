@@ -251,7 +251,7 @@ export const countries = {
         width: 3
       },
       {
-        description: "Prague communist memorial",
+        description: "Memorial to the Victims of Communism",
         fileName: "prague_communist_memorial",
         height: 3,
         width: 4
