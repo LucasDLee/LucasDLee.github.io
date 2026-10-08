@@ -1670,7 +1670,7 @@ export const countries = {
   },
   pt: {
     name: "Portugal",
-    cities: ["Lisbon"],
+    cities: ["Lisbon", "Sintra"],
     pictures: [
       {
         description: "Arco da Rua Augusta",
@@ -1711,6 +1711,12 @@ export const countries = {
         width: 3
       },
       {
+        description: "Friends in Portugal",
+        fileName: "friends_in_portugal",
+        height: 1,
+        width: 1
+      },
+      {
         description: "Santuário de Cristo Rei",
         fileName: "jesus",
         height: 3.5,
@@ -1721,6 +1727,12 @@ export const countries = {
         fileName: "monument",
         height: 4,
         width: 3
+      },
+      {
+        description: "Octopus rice",
+        fileName: "octopus_rice",
+        height: 3,
+        width: 4
       },
       {
         description: "Palácio Nacional de Sintra",
