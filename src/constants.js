@@ -1763,10 +1763,16 @@ export const countries = {
         width: 3
       },
       {
+        description: "Friends in Romania",
+        fileName: "friends_in_romania",
+        height: 3,
+        width: 4
+      },
+      {
         description: 'Biserica Mănăstirii "Stavropoleos"',
         fileName: "monastery",
         height: 3,
-        width: 4
+        width: 4.1
       },
       {
         description: "Monumentul lui Iuliu Maniu",
@@ -1784,6 +1790,18 @@ export const countries = {
         description: "Pasajul Macca - Villacrosse",
         fileName: "passage",
         height: 3.5,
+        width: 3
+      },
+      {
+        description: "Piața Sfântul Gheorghe",
+        fileName: "piata_sfantul_gheorghe",
+        height: 4,
+        width: 3
+      },
+      {
+        description: "Public art",
+        fileName: "public_art",
+        height: 4,
         width: 3
       },
       {
