@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import Footer from "../components/Footer.jsx";
+import NavBar from "../components/NavBar.jsx";
 import { countries } from "../constants";
 import { Link } from "react-router-dom";
 import "./scss/about-me.scss";

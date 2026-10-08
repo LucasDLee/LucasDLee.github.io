@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import Footer from "../components/Footer.jsx";
+import NavBar from "../components/NavBar.jsx";
 import WorkExpSection from "../components/WorkExpSection";
 
 const noLogoPlaceholder = "logo-placeholder";
