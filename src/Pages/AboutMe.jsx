@@ -129,6 +129,13 @@ function Skills() {
 function Education() {
   const schools = [
     {
+      duration: "July 2026",
+      logo: "aws",
+      name: "Amazon Web Services",
+      study: "Cloud Practitioner Essentials - Certificate of Completion",
+      // website: "https://www.sfu.ca/"
+    },
+    {
       duration: "May 2022 - June 2026",
       logo: "sfu",
       name: "Simon Fraser University",
